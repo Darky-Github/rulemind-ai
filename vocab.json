@@ -1,28 +1,37 @@
 {
+  "version": "2.0",
+  "language": "en",
   "words": [
     "a",
     "about",
-    "able",
+    "above",
+    "according",
     "actually",
     "after",
     "again",
     "against",
     "all",
+    "almost",
     "already",
     "also",
     "always",
     "am",
     "an",
     "and",
+    "another",
     "any",
+    "anyone",
     "anything",
     "are",
     "around",
     "as",
     "ask",
     "at",
+    "away",
     "awesome",
     "back",
+    "bad",
+    "based",
     "be",
     "because",
     "been",
@@ -31,16 +40,32 @@
     "best",
     "better",
     "between",
+    "big",
+    "bit",
     "both",
     "but",
     "by",
     "can",
     "cannot",
     "cant",
+    "cap",
+    "capabilities",
+    "cause",
     "change",
     "chat",
+    "classical",
+    "code",
+    "computer",
+    "computing",
+    "concept",
     "could",
+    "cool",
+    "cringe",
     "day",
+    "decoherence",
+    "define",
+    "definition",
+    "delulu",
     "did",
     "different",
     "do",
@@ -50,17 +75,22 @@
     "down",
     "each",
     "else",
+    "entanglement",
+    "error",
     "even",
-    "every",
     "everything",
     "explain",
+    "fact",
+    "fanum",
     "feel",
-    "find",
     "fine",
     "first",
     "for",
     "from",
+    "fr",
     "fun",
+    "gate",
+    "gates",
     "get",
     "getting",
     "give",
@@ -69,7 +99,8 @@
     "good",
     "got",
     "great",
-    "greetings",
+    "groovy",
+    "guy",
     "had",
     "has",
     "have",
@@ -81,32 +112,38 @@
     "here",
     "hey",
     "hi",
+    "highkey",
     "him",
     "his",
     "how",
     "i",
+    "idk",
     "if",
     "im",
     "in",
+    "information",
     "into",
     "is",
     "it",
     "its",
     "just",
     "know",
-    "last",
+    "k",
     "later",
     "let",
     "like",
-    "little",
-    "long",
-    "look",
+    "literally",
+    "locked",
+    "lowkey",
+    "lore",
+    "looksmaxxing",
+    "main",
     "make",
-    "many",
-    "may",
-    "me",
-    "mean",
+    "measurement",
+    "mewing",
+    "mid",
     "might",
+    "mog",
     "more",
     "most",
     "much",
@@ -115,42 +152,49 @@
     "need",
     "never",
     "new",
-    "next",
     "nice",
+    "ngl",
     "no",
+    "nope",
     "not",
     "now",
+    "npc",
     "of",
     "off",
     "okay",
-    "old",
     "on",
-    "once",
     "one",
     "only",
     "or",
     "other",
-    "our",
     "out",
-    "over",
     "please",
+    "probability",
+    "program",
+    "programming",
+    "quantum",
+    "qubit",
+    "qubits",
     "really",
-    "right",
+    "rizz",
+    "rule",
     "same",
     "say",
     "see",
-    "should",
-    "show",
+    "sigma",
+    "simple",
+    "skibidi",
     "so",
     "some",
     "something",
     "sorry",
+    "state",
     "still",
+    "superposition",
     "sure",
     "take",
     "tell",
-    "thank",
-    "thanks",
+    "term",
     "than",
     "that",
     "the",
@@ -164,6 +208,7 @@
     "think",
     "this",
     "those",
+    "through",
     "time",
     "to",
     "today",
@@ -174,6 +219,7 @@
     "us",
     "use",
     "very",
+    "vibe",
     "want",
     "was",
     "way",
@@ -188,11 +234,20 @@
     "why",
     "will",
     "with",
+    "without",
+    "word",
     "would",
+    "w",
+    "x",
+    "y",
     "yeah",
     "yes",
     "you",
-    "your"
+    "your",
+    "yap",
+    "yapping",
+    "zero",
+    "one"
   ],
 
   "slang": {
@@ -205,7 +260,6 @@
     "yep": "yes",
     "yup": "yes",
     "yea": "yes",
-    "yeah": "yes",
     "nah": "no",
     "nope": "no",
     "k": "okay",
@@ -215,14 +269,12 @@
     "okie": "okay",
     "pls": "please",
     "plz": "please",
-    "plss": "please",
     "thx": "thanks",
     "tnx": "thanks",
     "ty": "thank you",
     "tysm": "thank you so much",
     "np": "no problem",
     "yw": "you are welcome",
-    "wb": "welcome back",
     "gm": "good morning",
     "gn": "good night",
     "hru": "how are you",
@@ -241,13 +293,13 @@
     "afk": "away from keyboard",
     "irl": "in real life",
     "fr": "for real",
+    "frfr": "for real",
     "rn": "right now",
     "asap": "as soon as possible",
     "bc": "because",
     "bcz": "because",
     "cuz": "because",
     "coz": "because",
-    "cos": "because",
     "tho": "though",
     "thru": "through",
     "gonna": "going to",
@@ -263,7 +315,151 @@
     "comin": "coming",
     "lookin": "looking",
     "talkin": "talking",
-    "tryin": "trying"
+    "tryin": "trying",
+    "finna": "going to",
+    "lowkey": "low key",
+    "highkey": "high key",
+    "w": "win",
+    "l": "loss"
+  },
+
+  "slang_context": {
+    "cap": {
+      "meaning": "lie or exaggeration",
+      "opposite": "no cap"
+    },
+    "no cap": {
+      "meaning": "seriously or honestly"
+    },
+    "lowkey": {
+      "meaning": "quietly, somewhat, or subtly"
+    },
+    "highkey": {
+      "meaning": "openly, strongly, or obviously"
+    },
+    "bet": {
+      "meaning": "okay, agreed, or understood"
+    },
+    "valid": {
+      "meaning": "reasonable, acceptable, or respected"
+    },
+    "based": {
+      "meaning": "expressing approval or agreement"
+    },
+    "mid": {
+      "meaning": "average, mediocre, or disappointing"
+    },
+    "cooked": {
+      "meaning": "in trouble, exhausted, defeated, or finished",
+      "contexts": [
+        "failure",
+        "competition",
+        "fatigue",
+        "problem"
+      ]
+    },
+    "cooking": {
+      "meaning": "doing something well or making progress"
+    },
+    "locked in": {
+      "meaning": "highly focused or committed"
+    },
+    "delulu": {
+      "meaning": "delusional, usually in a playful way"
+    },
+    "ate": {
+      "meaning": "performed extremely well"
+    },
+    "fire": {
+      "meaning": "excellent or impressive"
+    },
+    "slaps": {
+      "meaning": "very good, especially music or entertainment"
+    },
+    "hits different": {
+      "meaning": "feels unusually good, meaningful, or different"
+    },
+    "rent free": {
+      "meaning": "something that remains strongly in someone's thoughts"
+    },
+    "ghosted": {
+      "meaning": "stopped responding without explanation"
+    },
+    "flex": {
+      "meaning": "show off"
+    },
+    "ratio": {
+      "meaning": "a social-media response indicating disagreement or stronger engagement"
+    },
+    "touch grass": {
+      "meaning": "spend less time online and reconnect with real life"
+    },
+    "main character": {
+      "meaning": "someone acting as though they are the central character of a story"
+    },
+    "canon event": {
+      "meaning": "an important experience viewed as part of someone's personal development"
+    },
+    "aura": {
+      "meaning": "social presence, charisma, or perceived coolness"
+    },
+    "aura points": {
+      "meaning": "a joking score representing perceived charisma or coolness"
+    },
+    "aura farming": {
+      "meaning": "deliberately creating moments that make someone appear cool or impressive"
+    },
+    "rizz": {
+      "meaning": "romantic charm or ability to attract someone"
+    },
+    "sigma": {
+      "meaning": "an internet meme term associated with an independent or unusually confident persona"
+    },
+    "skibidi": {
+      "meaning": "a meme expression whose meaning depends heavily on context"
+    },
+    "brainrot": {
+      "meaning": "internet content or culture considered excessively repetitive, absurd, or mentally consuming"
+    },
+    "yap": {
+      "meaning": "talk excessively"
+    },
+    "yapper": {
+      "meaning": "someone who talks a lot"
+    },
+    "unc": {
+      "meaning": "a joking way to refer to someone perceived as older"
+    },
+    "mog": {
+      "meaning": "to outperform or appear superior to someone"
+    },
+    "mewing": {
+      "meaning": "an internet meme involving a facial posture or jaw-related practice"
+    },
+    "looksmaxxing": {
+      "meaning": "internet slang for attempting to improve one's appearance"
+    },
+    "fanum tax": {
+      "meaning": "a meme expression for taking some of another person's food"
+    },
+    "67": {
+      "meaning": "a deliberately ambiguous or nonsensical internet meme expression"
+    },
+    "chopped": {
+      "meaning": "looking rough, messy, or unattractive in slang usage"
+    },
+    "crash out": {
+      "meaning": "to lose composure or react very strongly"
+    },
+    "NPC": {
+      "meaning": "someone portrayed as behaving predictably or without independent thought"
+    },
+    "lore": {
+      "meaning": "background information or history about a person, event, or situation"
+    },
+    "vibe": {
+      "meaning": "the general feeling, atmosphere, or impression of something"
+    }
   },
 
   "aliases": {
@@ -309,7 +505,27 @@
     "talk to you later": "goodbye",
     "catch you later": "goodbye",
     "have a good night": "good night",
-    "have a nice day": "goodbye"
+    "have a nice day": "goodbye",
+    "what is quantum computing": "quantum computing",
+    "whats quantum computing": "quantum computing",
+    "what's quantum computing": "quantum computing",
+    "tell me about quantum computing": "quantum computing",
+    "explain quantum computing": "quantum computing",
+    "what is a qubit": "qubit",
+    "what are qubits": "qubit",
+    "what is a quantum bit": "qubit",
+    "what is superposition": "superposition",
+    "what does superposition mean": "superposition",
+    "what is quantum entanglement": "entanglement",
+    "what is entanglement": "entanglement",
+    "what are quantum gates": "quantum gate",
+    "what is a quantum gate": "quantum gate",
+    "what is a quantum circuit": "quantum circuit",
+    "what is decoherence": "decoherence",
+    "what is a quantum algorithm": "quantum algorithm",
+    "what is quantum advantage": "quantum advantage",
+    "quantum computer vs classical computer": "classical vs quantum",
+    "quantum computing vs classical computing": "classical vs quantum"
   },
 
   "typos": {
@@ -326,7 +542,6 @@
     "heyyy": "hey",
     "gud": "good",
     "goood": "good",
-    "gooodd": "good",
     "godo": "good",
     "god": "good",
     "mornig": "morning",
@@ -344,14 +559,12 @@
     "hoow": "how",
     "howw": "how",
     "howww": "how",
-    "whow": "how",
     "aree": "are",
     "aer": "are",
     "rae": "are",
     "rre": "are",
     "yuo": "you",
     "oyu": "you",
-    "yuo": "you",
     "yu": "you",
     "yoou": "you",
     "youu": "you",
@@ -367,11 +580,9 @@
     "whre": "where",
     "wher": "where",
     "whrer": "where",
-    "when": "when",
-    "wheen": "when",
     "whne": "when",
+    "wheen": "when",
     "wwhy": "why",
-    "why": "why",
     "thnaks": "thanks",
     "tahnks": "thanks",
     "thankss": "thanks",
@@ -396,7 +607,6 @@
     "thiss": "this",
     "thsi": "this",
     "ths": "this",
-    "thats": "that",
     "somthing": "something",
     "somethng": "something",
     "somethin": "something",
@@ -406,7 +616,6 @@
     "realy": "really",
     "reallly": "really",
     "rly": "really",
-    "becuase": "because",
     "definately": "definitely",
     "definatly": "definitely",
     "definetly": "definitely",
@@ -417,7 +626,395 @@
     "untill": "until",
     "tommorow": "tomorrow",
     "tomorow": "tomorrow",
-    "yesturday": "yesterday"
+    "yesturday": "yesterday",
+    "quantam": "quantum",
+    "quantom": "quantum",
+    "qubitz": "qubits",
+    "qubits": "qubits",
+    "superpostion": "superposition",
+    "superpositon": "superposition",
+    "entanglment": "entanglement",
+    "entangelment": "entanglement",
+    "decoherance": "decoherence",
+    "decoherance": "decoherence",
+    "algorithim": "algorithm",
+    "algoritm": "algorithm",
+    "computar": "computer",
+    "computng": "computing"
+  },
+
+  "normalization": {
+    "lowercase": true,
+    "trim": true,
+    "remove_extra_spaces": true,
+    "remove_punctuation": true,
+    "collapse_repeated_letters": true,
+    "max_repeated_letters": 1,
+    "expand_slang": true,
+    "correct_typos": true,
+    "apply_aliases": true,
+    "normalize_apostrophes": true,
+    "normalize_numbers": true
+  },
+
+  "knowledge": {
+    "quantum_computing": {
+      "title": "Quantum Computing",
+      "definition": "Quantum computing is a computing paradigm based on quantum mechanical effects such as superposition and entanglement.",
+      "keywords": [
+        "quantum",
+        "computing",
+        "quantum computer",
+        "quantum computation",
+        "quantum information"
+      ],
+      "related_topics": [
+        "qubit",
+        "superposition",
+        "entanglement",
+        "interference",
+        "measurement",
+        "quantum gate",
+        "quantum circuit",
+        "decoherence",
+        "quantum algorithm",
+        "quantum error correction",
+        "quantum advantage"
+      ]
+    },
+
+    "qubit": {
+      "title": "Qubit",
+      "definition": "A qubit is the basic unit of quantum information. Unlike a classical bit, whose computational state is conventionally 0 or 1, a qubit can exist in a quantum superposition of basis states.",
+      "keywords": [
+        "qubit",
+        "qubits",
+        "quantum bit",
+        "quantum bits"
+      ],
+      "related_topics": [
+        "bit",
+        "superposition",
+        "measurement",
+        "quantum state"
+      ]
+    },
+
+    "superposition": {
+      "title": "Superposition",
+      "definition": "Quantum superposition describes a quantum state as a combination of possible basis states. A measurement produces a classical outcome according to probabilities determined by the quantum state.",
+      "keywords": [
+        "superposition",
+        "quantum superposition",
+        "superposed state"
+      ],
+      "related_topics": [
+        "qubit",
+        "measurement",
+        "interference",
+        "quantum state"
+      ]
+    },
+
+    "entanglement": {
+      "title": "Quantum Entanglement",
+      "definition": "Quantum entanglement is a type of quantum correlation in which the combined state of multiple quantum systems cannot be represented as independent states of the individual systems.",
+      "keywords": [
+        "entanglement",
+        "quantum entanglement",
+        "entangled qubits",
+        "entangled state"
+      ],
+      "related_topics": [
+        "qubit",
+        "superposition",
+        "Bell state",
+        "CNOT",
+        "quantum correlation"
+      ]
+    },
+
+    "interference": {
+      "title": "Quantum Interference",
+      "definition": "Quantum interference occurs when probability amplitudes combine, allowing some outcomes to be reinforced and others to be suppressed.",
+      "keywords": [
+        "interference",
+        "quantum interference",
+        "amplitude"
+      ],
+      "related_topics": [
+        "superposition",
+        "quantum algorithm",
+        "measurement"
+      ]
+    },
+
+    "measurement": {
+      "title": "Quantum Measurement",
+      "definition": "Quantum measurement produces a classical result from a quantum state. Measurement generally changes the state being measured.",
+      "keywords": [
+        "measurement",
+        "measure",
+        "quantum measurement",
+        "measuring a qubit"
+      ],
+      "related_topics": [
+        "qubit",
+        "superposition",
+        "probability",
+        "quantum state"
+      ]
+    },
+
+    "quantum_gate": {
+      "title": "Quantum Gate",
+      "definition": "A quantum gate is an operation that transforms one or more qubits. Quantum gates are the basic operations used to construct quantum circuits.",
+      "keywords": [
+        "quantum gate",
+        "quantum gates",
+        "gate"
+      ],
+      "examples": [
+        "X gate",
+        "Y gate",
+        "Z gate",
+        "Hadamard gate",
+        "CNOT gate",
+        "CZ gate",
+        "SWAP gate",
+        "T gate"
+      ],
+      "related_topics": [
+        "qubit",
+        "quantum circuit",
+        "unitary operation"
+      ]
+    },
+
+    "hadamard_gate": {
+      "title": "Hadamard Gate",
+      "definition": "The Hadamard gate is a single-qubit quantum gate commonly used to create superposition from computational basis states.",
+      "keywords": [
+        "hadamard",
+        "hadamard gate",
+        "H gate"
+      ],
+      "related_topics": [
+        "superposition",
+        "qubit",
+        "quantum circuit"
+      ]
+    },
+
+    "cnot": {
+      "title": "CNOT Gate",
+      "definition": "The controlled-NOT gate is a two-qubit operation with a control qubit and a target qubit. It flips the target when the control is in the appropriate computational basis state.",
+      "keywords": [
+        "CNOT",
+        "CNOT gate",
+        "controlled NOT",
+        "controlled-not"
+      ],
+      "related_topics": [
+        "entanglement",
+        "quantum gate",
+        "control qubit",
+        "target qubit"
+      ]
+    },
+
+    "quantum_circuit": {
+      "title": "Quantum Circuit",
+      "definition": "A quantum circuit represents a quantum computation as a sequence of operations applied to qubits, followed by measurements when classical results are needed.",
+      "keywords": [
+        "quantum circuit",
+        "quantum circuits",
+        "circuit"
+      ],
+      "related_topics": [
+        "qubit",
+        "quantum gate",
+        "measurement",
+        "quantum algorithm"
+      ]
+    },
+
+    "decoherence": {
+      "title": "Decoherence",
+      "definition": "Decoherence is the loss of quantum coherence caused by interactions between a quantum system and its environment. It is a major challenge for practical quantum computing.",
+      "keywords": [
+        "decoherence",
+        "quantum decoherence",
+        "coherence"
+      ],
+      "related_topics": [
+        "quantum error",
+        "noise",
+        "qubit",
+        "quantum error correction"
+      ]
+    },
+
+    "quantum_algorithm": {
+      "title": "Quantum Algorithm",
+      "definition": "A quantum algorithm is an algorithm designed to use quantum operations and quantum mechanical effects to solve a computational problem.",
+      "keywords": [
+        "quantum algorithm",
+        "quantum algorithms"
+      ],
+      "examples": [
+        "Shor's algorithm",
+        "Grover's algorithm",
+        "Deutsch-Jozsa algorithm",
+        "Simon's algorithm"
+      ],
+      "related_topics": [
+        "quantum circuit",
+        "qubit",
+        "superposition",
+        "interference"
+      ]
+    },
+
+    "shors_algorithm": {
+      "title": "Shor's Algorithm",
+      "definition": "Shor's algorithm is a quantum algorithm for integer factorization and related number-theoretic problems. Its theoretical speedup is important to modern cryptography.",
+      "keywords": [
+        "Shor",
+        "Shor's algorithm",
+        "Shor algorithm",
+        "factorization"
+      ],
+      "related_topics": [
+        "quantum algorithm",
+        "cryptography",
+        "period finding"
+      ]
+    },
+
+    "grovers_algorithm": {
+      "title": "Grover's Algorithm",
+      "definition": "Grover's algorithm is a quantum search algorithm that can provide a quadratic speedup for searching an unstructured space compared with straightforward classical search.",
+      "keywords": [
+        "Grover",
+        "Grover's algorithm",
+        "Grover algorithm",
+        "quantum search"
+      ],
+      "related_topics": [
+        "quantum algorithm",
+        "search",
+        "amplitude amplification"
+      ]
+    },
+
+    "quantum_error_correction": {
+      "title": "Quantum Error Correction",
+      "definition": "Quantum error correction uses additional quantum resources and carefully designed procedures to protect quantum information from errors and noise.",
+      "keywords": [
+        "quantum error correction",
+        "error correction",
+        "QEC",
+        "quantum errors"
+      ],
+      "related_topics": [
+        "decoherence",
+        "noise",
+        "logical qubit",
+        "physical qubit"
+      ]
+    },
+
+    "quantum_advantage": {
+      "title": "Quantum Advantage",
+      "definition": "Quantum advantage describes a situation where a quantum computer provides a meaningful computational advantage over available classical approaches for a particular task.",
+      "keywords": [
+        "quantum advantage",
+        "quantum speedup",
+        "quantum supremacy"
+      ],
+      "related_topics": [
+        "quantum algorithm",
+        "classical computing",
+        "quantum computer"
+      ]
+    },
+
+    "classical_vs_quantum": {
+      "title": "Classical vs Quantum Computing",
+      "definition": "Classical computers use bits and classical logic, while quantum computers use qubits and quantum operations. Quantum computers are not universally faster; their potential advantages depend on the problem and algorithm.",
+      "keywords": [
+        "classical vs quantum",
+        "quantum vs classical",
+        "quantum computer vs computer",
+        "difference between classical and quantum computing"
+      ],
+      "related_topics": [
+        "bit",
+        "qubit",
+        "quantum algorithm",
+        "quantum advantage"
+      ]
+    },
+
+    "bit": {
+      "title": "Classical Bit",
+      "definition": "A classical bit is a basic unit of classical digital information and is conventionally represented as either 0 or 1.",
+      "keywords": [
+        "bit",
+        "classical bit",
+        "binary bit"
+      ],
+      "related_topics": [
+        "qubit",
+        "binary",
+        "classical computing"
+      ]
+    },
+
+    "quantum_state": {
+      "title": "Quantum State",
+      "definition": "A quantum state describes the physical information needed to characterize a quantum system and determine the probabilities of measurement outcomes.",
+      "keywords": [
+        "quantum state",
+        "state vector",
+        "state"
+      ],
+      "related_topics": [
+        "qubit",
+        "superposition",
+        "measurement",
+        "entanglement"
+      ]
+    },
+
+    "logical_qubit": {
+      "title": "Logical Qubit",
+      "definition": "A logical qubit is an encoded qubit whose information is distributed across multiple physical qubits so that quantum error-correction techniques can detect and correct certain errors.",
+      "keywords": [
+        "logical qubit",
+        "logical qubits"
+      ],
+      "related_topics": [
+        "physical qubit",
+        "quantum error correction",
+        "error correction"
+      ]
+    },
+
+    "physical_qubit": {
+      "title": "Physical Qubit",
+      "definition": "A physical qubit is an actual quantum system used to implement quantum information, such as a superconducting circuit, trapped ion, or another physical platform.",
+      "keywords": [
+        "physical qubit",
+        "physical qubits"
+      ],
+      "related_topics": [
+        "logical qubit",
+        "quantum hardware",
+        "decoherence"
+      ]
+    }
   },
 
   "intents": [
@@ -431,20 +1028,19 @@
         ["greetings"],
         ["good", "morning"],
         ["good", "afternoon"],
-        ["good", "evening"],
-        ["howdy"]
+        ["good", "evening"]
       ],
       "responses": [
         "Hello.",
         "Hi. How can I help?",
-        "Hey. What can I do for you?",
+        "Hey. What are we working on?",
         "Hello there."
       ]
     },
 
     {
       "id": "GREETING_STATUS",
-      "priority": 30,
+      "priority": 40,
       "patterns": [
         ["how", "are", "you"],
         ["how", "are", "you", "doing"],
@@ -452,7 +1048,6 @@
         ["how", "is", "it", "going"],
         ["how", "are", "things"],
         ["how", "are", "things", "going"],
-        ["how", "are", "you", "today"],
         ["you", "good"],
         ["you", "okay"],
         ["everything", "good"],
@@ -460,83 +1055,46 @@
       ],
       "responses": [
         "I'm doing well. What can I help you with?",
-        "I'm doing great. What are we working on?",
-        "Everything is running normally.",
-        "I'm good. Ready for your next question."
+        "I'm running normally. What are we working on?",
+        "I'm good. Ready for the next question."
       ]
     },
 
     {
-      "id": "GOOD_MORNING",
-      "priority": 20,
+      "id": "QUANTUM_COMPUTING",
+      "priority": 50,
       "patterns": [
-        ["good", "morning"],
-        ["morning"]
+        ["quantum", "computing"],
+        ["quantum", "computer"],
+        ["quantum", "computation"],
+        ["what", "is", "quantum", "computing"],
+        ["explain", "quantum", "computing"],
+        ["tell", "me", "about", "quantum", "computing"]
       ],
-      "responses": [
-        "Good morning.",
-        "Good morning. How can I help?",
-        "Morning. What are we working on?"
-      ]
+      "knowledge": "quantum_computing"
     },
 
     {
-      "id": "GOOD_AFTERNOON",
-      "priority": 20,
+      "id": "QUANTUM_TOPIC",
+      "priority": 50,
       "patterns": [
-        ["good", "afternoon"],
-        ["afternoon"]
+        ["qubit"],
+        ["superposition"],
+        ["entanglement"],
+        ["interference"],
+        ["measurement"],
+        ["quantum", "gate"],
+        ["quantum", "circuit"],
+        ["decoherence"],
+        ["quantum", "algorithm"],
+        ["quantum", "advantage"],
+        ["quantum", "error", "correction"],
+        ["logical", "qubit"],
+        ["physical", "qubit"],
+        ["quantum", "state"],
+        ["classical", "vs", "quantum"]
       ],
-      "responses": [
-        "Good afternoon.",
-        "Good afternoon. How can I help?"
-      ]
-    },
-
-    {
-      "id": "GOOD_EVENING",
-      "priority": 20,
-      "patterns": [
-        ["good", "evening"],
-        ["evening"]
-      ],
-      "responses": [
-        "Good evening.",
-        "Good evening. What can I help you with?"
-      ]
-    },
-
-    {
-      "id": "GOOD_NIGHT",
-      "priority": 20,
-      "patterns": [
-        ["good", "night"],
-        ["night"]
-      ],
-      "responses": [
-        "Good night.",
-        "Have a good night.",
-        "Good night. See you later."
-      ]
-    },
-
-    {
-      "id": "FAREWELL",
-      "priority": 15,
-      "patterns": [
-        ["bye"],
-        ["goodbye"],
-        ["see", "you"],
-        ["see", "you", "later"],
-        ["talk", "to", "you", "later"],
-        ["catch", "you", "later"]
-      ],
-      "responses": [
-        "Goodbye.",
-        "See you later.",
-        "Take care.",
-        "Until next time."
-      ]
+      "knowledge_lookup": true
     },
 
     {
@@ -546,9 +1104,7 @@
         ["thanks"],
         ["thank", "you"],
         ["thank", "you", "so", "much"],
-        ["thanks", "a", "lot"],
-        ["much", "appreciated"],
-        ["i", "appreciate", "it"]
+        ["much", "appreciated"]
       ],
       "responses": [
         "You're welcome.",
@@ -565,13 +1121,11 @@
         ["who", "are", "you"],
         ["what", "are", "you"],
         ["what", "is", "your", "name"],
-        ["what", "is", "your", "identity"],
         ["introduce", "yourself"]
       ],
       "responses": [
         "I'm RuleMind, a rule-based conversational AI.",
-        "I'm RuleMind. I process language using rules, vocabulary, normalization, and context.",
-        "I'm RuleMind, a deterministic conversational engine."
+        "I'm RuleMind. My behavior is driven by vocabulary, normalization, rules, knowledge, and context."
       ]
     },
 
@@ -582,12 +1136,11 @@
         ["what", "can", "you", "do"],
         ["what", "do", "you", "do"],
         ["what", "are", "your", "capabilities"],
-        ["what", "are", "you", "capable", "of"],
-        ["what", "can", "i", "ask", "you"]
+        ["what", "are", "you", "capable", "of"]
       ],
       "responses": [
-        "I can process conversational input, normalize slang and typos, detect intents, apply rules, maintain basic context, and respond using the loaded knowledge base.",
-        "My behavior is driven by rules and data. I can recognize patterns, normalize different forms of language, and select responses based on detected intent."
+        "I can normalize language, recognize intents, use structured knowledge, handle slang and common typos, and select responses using rules.",
+        "My behavior comes from deterministic rules and data rather than a neural language model."
       ]
     },
 
@@ -598,13 +1151,29 @@
         ["help"],
         ["help", "me"],
         ["i", "need", "help"],
-        ["can", "you", "help", "me"],
-        ["could", "you", "help", "me"]
+        ["can", "you", "help", "me"]
       ],
       "responses": [
         "Sure. Tell me what you need help with.",
         "What do you need help with?",
         "Describe the problem and I'll see which rules apply."
+      ]
+    },
+
+    {
+      "id": "GOODBYE",
+      "priority": 15,
+      "patterns": [
+        ["bye"],
+        ["goodbye"],
+        ["see", "you"],
+        ["see", "you", "later"],
+        ["talk", "to", "you", "later"]
+      ],
+      "responses": [
+        "Goodbye.",
+        "See you later.",
+        "Take care."
       ]
     },
 
@@ -618,7 +1187,8 @@
         ["nice"],
         ["cool"],
         ["excellent"],
-        ["perfect"]
+        ["perfect"],
+        ["fire"]
       ],
       "responses": [
         "Good to hear.",
@@ -636,11 +1206,12 @@
         ["terrible"],
         ["awful"],
         ["horrible"],
-        ["not", "good"]
+        ["not", "good"],
+        ["mid"]
       ],
       "responses": [
         "That doesn't sound ideal.",
-        "I understand.",
+        "Understood.",
         "Let's see if we can work through it."
       ]
     },
@@ -656,7 +1227,9 @@
         ["correct"],
         ["exactly"],
         ["right"],
-        ["sure"]
+        ["sure"],
+        ["bet"],
+        ["valid"]
       ],
       "responses": [
         "Understood.",
@@ -674,7 +1247,7 @@
         ["nope"],
         ["nah"],
         ["not", "really"],
-        ["that's", "wrong"],
+        ["thats", "wrong"],
         ["you", "are", "wrong"]
       ],
       "responses": [
@@ -688,7 +1261,7 @@
       "id": "CONFUSION",
       "priority": 20,
       "patterns": [
-        ["i", "don't", "understand"],
+        ["i", "dont", "understand"],
         ["i", "do", "not", "understand"],
         ["what", "does", "that", "mean"],
         ["what", "do", "you", "mean"],
@@ -720,20 +1293,6 @@
     },
 
     {
-      "id": "ABOUT",
-      "priority": 20,
-      "patterns": [
-        ["tell", "me", "about", "yourself"],
-        ["about", "yourself"],
-        ["tell", "me", "about", "you"]
-      ],
-      "responses": [
-        "I'm RuleMind, a rule-based conversational system. My behavior comes from structured vocabulary, normalization, intent rules, and response selection.",
-        "RuleMind is designed to create complex conversational behavior from deterministic rules and data."
-      ]
-    },
-
-    {
       "id": "COMPLIMENT",
       "priority": 15,
       "patterns": [
@@ -741,7 +1300,6 @@
         ["you", "are", "good"],
         ["you", "are", "awesome"],
         ["you", "are", "great"],
-        ["nice", "ai"],
         ["good", "job"]
       ],
       "responses": [
@@ -768,97 +1326,14 @@
     },
 
     {
-      "id": "QUESTION_WHY",
-      "priority": 12,
-      "patterns": [
-        ["why"],
-        ["why", "is", "that"],
-        ["why", "does", "that", "happen"],
-        ["why", "did", "that", "happen"]
-      ],
+      "id": "UNKNOWN",
+      "priority": 0,
       "responses": [
-        "That depends on the context. Give me a little more information.",
-        "I need more context to determine why.",
-        "Tell me what you're referring to and I'll analyze it."
-      ]
-    },
-
-    {
-      "id": "QUESTION_WHAT",
-      "priority": 10,
-      "patterns": [
-        ["what"],
-        ["what", "is", "that"],
-        ["what", "is", "this"],
-        ["what", "does", "that", "mean"]
-      ],
-      "responses": [
-        "Tell me what you're referring to and I'll explain it.",
-        "I can help explain that. Give me the specific topic."
-      ]
-    },
-
-    {
-      "id": "QUESTION_HOW",
-      "priority": 10,
-      "patterns": [
-        ["how"],
-        ["how", "does", "that", "work"],
-        ["how", "do", "i", "do", "that"],
-        ["how", "can", "i", "do", "that"]
-      ],
-      "responses": [
-        "Tell me what you're trying to accomplish and I'll break it down.",
-        "Give me the task and I'll explain the steps."
-      ]
-    },
-
-    {
-      "id": "CAPABILITY_PROGRAMMING",
-      "priority": 20,
-      "patterns": [
-        ["can", "you", "code"],
-        ["can", "you", "program"],
-        ["can", "you", "write", "code"],
-        ["do", "you", "know", "programming"],
-        ["do", "you", "know", "javascript"],
-        ["do", "you", "know", "python"]
-      ],
-      "responses": [
-        "I can reason about programming concepts when the required knowledge is represented in my rules.",
-        "Programming-related behavior can be added to my knowledge base using rules and vocabulary."
-      ]
-    },
-
-    {
-      "id": "POSITIVE_FEEDBACK",
-      "priority": 18,
-      "patterns": [
-        ["that", "works"],
-        ["it", "works"],
-        ["works", "great"],
-        ["that", "worked"],
-        ["it", "worked"],
-        ["fixed", "it"]
-      ],
-      "responses": [
-        "Good.",
-        "Great. That means the rule matched correctly.",
-        "Excellent. We can build on that."
-      ]
-    },
-
-    {
-      "id": "UNKNOWN_SPECIFIC",
-      "priority": 1,
-      "patterns": [
-        ["i", "dont", "know"],
-        ["i", "do", "not", "know"]
-      ],
-      "responses": [
-        "That's okay.",
-        "No problem.",
-        "We can work it out."
+        "I don't have a rule for that yet.",
+        "I don't recognize that input yet.",
+        "That isn't covered by my current knowledge base.",
+        "I need another rule to handle that.",
+        "I understand some of the input, but I don't have a matching intent."
       ]
     }
   ],
@@ -868,8 +1343,6 @@
     "I don't recognize that input yet.",
     "That isn't covered by my current knowledge base.",
     "I need another rule to handle that.",
-    "I understand some of the input, but I don't have a matching intent.",
-    "I don't have enough information to determine the correct response.",
-    "That falls outside my current rule set."
+    "I don't have enough information to determine the correct response."
   ]
-          }
+    }
