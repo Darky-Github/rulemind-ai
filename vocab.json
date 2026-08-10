@@ -1,1174 +1,510 @@
 {
   "version": "2.0",
-  "language": "en",
   "words": [
     "a",
     "about",
     "above",
-    "according",
-    "actually",
-    "after",
-    "again",
-    "against",
+    "algorithm",
     "all",
-    "almost",
-    "already",
     "also",
-    "always",
     "am",
     "an",
     "and",
-    "another",
-    "any",
-    "anyone",
+    "answer",
     "anything",
     "are",
-    "around",
-    "as",
+    "artificial",
     "ask",
     "at",
-    "away",
     "awesome",
     "back",
-    "bad",
-    "based",
-    "be",
     "because",
-    "been",
-    "before",
-    "being",
     "best",
-    "better",
     "between",
-    "big",
     "bit",
-    "both",
-    "but",
-    "by",
+    "bits",
+    "bye",
     "can",
     "cannot",
-    "cant",
-    "cap",
-    "capabilities",
-    "cause",
-    "change",
-    "chat",
-    "classical",
     "code",
+    "coding",
     "computer",
     "computing",
-    "concept",
     "could",
-    "cool",
-    "cringe",
     "day",
-    "decoherence",
     "define",
     "definition",
-    "delulu",
-    "did",
-    "different",
     "do",
-    "does",
     "doing",
-    "dont",
-    "down",
-    "each",
-    "else",
-    "entanglement",
-    "error",
-    "even",
-    "everything",
+    "does",
     "explain",
-    "fact",
-    "fanum",
-    "feel",
+    "find",
     "fine",
-    "first",
     "for",
     "from",
-    "fr",
-    "fun",
-    "gate",
-    "gates",
-    "get",
-    "getting",
-    "give",
-    "go",
-    "going",
+    "function",
+    "game",
     "good",
-    "got",
     "great",
-    "groovy",
-    "guy",
-    "had",
-    "has",
-    "have",
-    "having",
-    "he",
     "hello",
     "help",
-    "her",
-    "here",
     "hey",
     "hi",
-    "highkey",
-    "him",
-    "his",
     "how",
     "i",
-    "idk",
+    "idea",
     "if",
-    "im",
     "in",
     "information",
-    "into",
+    "internet",
     "is",
     "it",
-    "its",
-    "just",
     "know",
-    "k",
-    "later",
-    "let",
-    "like",
-    "literally",
-    "locked",
-    "lowkey",
-    "lore",
-    "looksmaxxing",
-    "main",
+    "language",
+    "last",
+    "learn",
+    "machine",
     "make",
-    "measurement",
-    "mewing",
-    "mid",
-    "might",
-    "mog",
-    "more",
-    "most",
-    "much",
+    "me",
+    "model",
+    "morning",
     "my",
     "name",
-    "need",
-    "never",
-    "new",
-    "nice",
-    "ngl",
+    "network",
+    "neural",
     "no",
-    "nope",
     "not",
-    "now",
-    "npc",
     "of",
-    "off",
-    "okay",
     "on",
-    "one",
-    "only",
     "or",
-    "other",
-    "out",
     "please",
-    "probability",
     "program",
     "programming",
     "quantum",
     "qubit",
     "qubits",
     "really",
-    "rizz",
     "rule",
-    "same",
     "say",
-    "see",
-    "sigma",
-    "simple",
-    "skibidi",
-    "so",
-    "some",
-    "something",
-    "sorry",
+    "search",
+    "show",
+    "software",
     "state",
-    "still",
-    "superposition",
-    "sure",
-    "take",
+    "system",
     "tell",
-    "term",
-    "than",
+    "thank",
+    "thanks",
     "that",
     "the",
-    "their",
-    "them",
-    "then",
     "there",
-    "these",
     "they",
-    "thing",
     "think",
     "this",
-    "those",
-    "through",
     "time",
-    "to",
     "today",
-    "too",
-    "try",
-    "understand",
-    "up",
-    "us",
-    "use",
-    "very",
-    "vibe",
-    "want",
-    "was",
-    "way",
-    "we",
-    "well",
-    "were",
     "what",
     "when",
     "where",
     "which",
     "who",
     "why",
-    "will",
     "with",
-    "without",
     "word",
     "would",
-    "w",
-    "x",
-    "y",
-    "yeah",
-    "yes",
     "you",
     "your",
-    "yap",
-    "yapping",
-    "zero",
-    "one"
+    "yes",
+    "quantum",
+    "superposition",
+    "entanglement",
+    "decoherence",
+    "measurement",
+    "circuit",
+    "circuits",
+    "gate",
+    "gates",
+    "algorithm",
+    "algorithms",
+    "factoring",
+    "cryptography",
+    "encryption",
+    "security",
+    "cybersecurity",
+    "hacking",
+    "ethical",
+    "vulnerability",
+    "malware",
+    "networking",
+    "server",
+    "client",
+    "database",
+    "javascript",
+    "html",
+    "css",
+    "python",
+    "java",
+    "rust",
+    "cpp",
+    "linux",
+    "windows",
+    "android",
+    "ios",
+    "game",
+    "games",
+    "engine",
+    "unity",
+    "unreal",
+    "godot",
+    "physics",
+    "mathematics",
+    "math",
+    "number",
+    "numbers",
+    "logic",
+    "data",
+    "database",
+    "web",
+    "website",
+    "browser",
+    "api",
+    "http",
+    "https",
+    "dns",
+    "tcp",
+    "ip",
+    "gpu",
+    "cpu",
+    "ram",
+    "storage",
+    "memory"
   ],
 
   "slang": {
+    "r": "are",
     "u": "you",
     "ur": "your",
     "urs": "yours",
-    "r": "are",
     "ya": "you",
     "yall": "you all",
-    "yep": "yes",
-    "yup": "yes",
-    "yea": "yes",
-    "nah": "no",
-    "nope": "no",
-    "k": "okay",
-    "kk": "okay",
-    "ok": "okay",
-    "oki": "okay",
-    "okie": "okay",
-    "pls": "please",
-    "plz": "please",
+    "ya'll": "you all",
+    "rly": "really",
+    "rlly": "really",
     "thx": "thanks",
-    "tnx": "thanks",
     "ty": "thank you",
     "tysm": "thank you so much",
-    "np": "no problem",
-    "yw": "you are welcome",
-    "gm": "good morning",
-    "gn": "good night",
-    "hru": "how are you",
-    "hrud": "how are you doing",
-    "wyd": "what are you doing",
-    "wbu": "what about you",
-    "hbu": "how about you",
-    "idk": "i don't know",
-    "idc": "i don't care",
-    "imo": "in my opinion",
-    "imho": "in my humble opinion",
-    "tbh": "to be honest",
-    "ngl": "not going to lie",
-    "btw": "by the way",
-    "brb": "be right back",
-    "afk": "away from keyboard",
-    "irl": "in real life",
-    "fr": "for real",
-    "frfr": "for real",
-    "rn": "right now",
-    "asap": "as soon as possible",
+    "tq": "thank you",
+    "pls": "please",
+    "plz": "please",
+    "ppl": "people",
     "bc": "because",
-    "bcz": "because",
+    "bcs": "because",
     "cuz": "because",
     "coz": "because",
-    "tho": "though",
-    "thru": "through",
-    "gonna": "going to",
-    "wanna": "want to",
-    "gotta": "got to",
-    "lemme": "let me",
-    "gimme": "give me",
-    "kinda": "kind of",
-    "sorta": "sort of",
-    "dunno": "do not know",
-    "doin": "doing",
-    "goin": "going",
-    "comin": "coming",
-    "lookin": "looking",
-    "talkin": "talking",
-    "tryin": "trying",
-    "finna": "going to",
+    "idk": "i do not know",
+    "idc": "i do not care",
+    "imo": "in my opinion",
+    "imho": "in my humble opinion",
+    "ngl": "not gonna lie",
+    "fr": "for real",
+    "frfr": "for real",
+    "tbh": "to be honest",
+    "rn": "right now",
+    "irl": "in real life",
+    "brb": "be right back",
+    "btw": "by the way",
+    "omg": "oh my god",
+    "wtf": "what",
+    "wth": "what",
+    "lol": "laughing",
+    "lmao": "laughing",
+    "lmfao": "laughing",
+    "af": "very",
+    "asf": "very",
     "lowkey": "low key",
     "highkey": "high key",
+    "nocap": "no lie",
+    "no cap": "no lie",
+    "bet": "okay",
+    "say less": "okay",
+    "slaps": "excellent",
+    "slap": "excellent",
+    "bussin": "excellent",
+    "bussin'": "excellent",
+    "fire": "excellent",
+    "lit": "exciting",
+    "goated": "excellent",
+    "based": "confidently stated",
+    "cringe": "embarrassing",
+    "mid": "average",
+    "sus": "suspicious",
+    "sussy": "suspicious",
+    "bruh": "bro",
+    "bro": "friend",
+    "broo": "friend",
+    "brooo": "friend",
+    "bestie": "friend",
+    "fam": "friend",
+    "gang": "friends",
+    "homie": "friend",
+    "valid": "reasonable",
+    "facts": "I agree",
+    "fax": "facts",
+    "real": "I agree",
+    "cap": "lie",
+    "cooked": "in trouble",
+    "cooking": "doing well",
+    "let him cook": "let him continue",
+    "crashout": "lose control",
+    "crash out": "lose control",
+    "unc": "older person",
+    "aura": "presence",
+    "aura farming": "trying to appear impressive",
+    "brainrot": "internet culture",
+    "chopped": "looking rough",
+    "glaze": "excessive praise",
+    "mog": "outperform",
+    "outta": "out of",
+    "gonna": "going to",
+    "wanna": "want to",
+    "gotta": "have to",
+    "kinda": "kind of",
+    "sorta": "sort of",
+    "lemme": "let me",
+    "gimme": "give me",
+    "dunno": "do not know",
+    "vibing": "relaxing",
+    "vibin": "relaxing",
+    "drip": "style",
+    "slay": "do very well",
+    "yap": "talk a lot",
+    "yapping": "talking a lot",
+    "yapper": "person who talks a lot",
+    "ate": "did very well",
+    "aura points": "social presence",
+    "npc": "person behaving predictably",
+    "sigma": "independent person",
+    "skibidi": "nonsense",
+    "rizz": "charm",
+    "rizzler": "charismatic person",
+    "gyatt": "exclamation",
+    "delulu": "unrealistic",
+    "sus": "suspicious",
+    "sussy": "suspicious",
+    "pog": "exciting",
+    "goated": "great",
+    "goat": "greatest",
+    "W": "win",
+    "L": "loss",
     "w": "win",
     "l": "loss"
   },
 
-  "slang_context": {
-    "cap": {
-      "meaning": "lie or exaggeration",
-      "opposite": "no cap"
-    },
-    "no cap": {
-      "meaning": "seriously or honestly"
-    },
-    "lowkey": {
-      "meaning": "quietly, somewhat, or subtly"
-    },
-    "highkey": {
-      "meaning": "openly, strongly, or obviously"
-    },
-    "bet": {
-      "meaning": "okay, agreed, or understood"
-    },
-    "valid": {
-      "meaning": "reasonable, acceptable, or respected"
-    },
-    "based": {
-      "meaning": "expressing approval or agreement"
-    },
-    "mid": {
-      "meaning": "average, mediocre, or disappointing"
-    },
-    "cooked": {
-      "meaning": "in trouble, exhausted, defeated, or finished",
-      "contexts": [
-        "failure",
-        "competition",
-        "fatigue",
-        "problem"
-      ]
-    },
-    "cooking": {
-      "meaning": "doing something well or making progress"
-    },
-    "locked in": {
-      "meaning": "highly focused or committed"
-    },
-    "delulu": {
-      "meaning": "delusional, usually in a playful way"
-    },
-    "ate": {
-      "meaning": "performed extremely well"
-    },
-    "fire": {
-      "meaning": "excellent or impressive"
-    },
-    "slaps": {
-      "meaning": "very good, especially music or entertainment"
-    },
-    "hits different": {
-      "meaning": "feels unusually good, meaningful, or different"
-    },
-    "rent free": {
-      "meaning": "something that remains strongly in someone's thoughts"
-    },
-    "ghosted": {
-      "meaning": "stopped responding without explanation"
-    },
-    "flex": {
-      "meaning": "show off"
-    },
-    "ratio": {
-      "meaning": "a social-media response indicating disagreement or stronger engagement"
-    },
-    "touch grass": {
-      "meaning": "spend less time online and reconnect with real life"
-    },
-    "main character": {
-      "meaning": "someone acting as though they are the central character of a story"
-    },
-    "canon event": {
-      "meaning": "an important experience viewed as part of someone's personal development"
-    },
-    "aura": {
-      "meaning": "social presence, charisma, or perceived coolness"
-    },
-    "aura points": {
-      "meaning": "a joking score representing perceived charisma or coolness"
-    },
-    "aura farming": {
-      "meaning": "deliberately creating moments that make someone appear cool or impressive"
-    },
-    "rizz": {
-      "meaning": "romantic charm or ability to attract someone"
-    },
-    "sigma": {
-      "meaning": "an internet meme term associated with an independent or unusually confident persona"
-    },
-    "skibidi": {
-      "meaning": "a meme expression whose meaning depends heavily on context"
-    },
-    "brainrot": {
-      "meaning": "internet content or culture considered excessively repetitive, absurd, or mentally consuming"
-    },
-    "yap": {
-      "meaning": "talk excessively"
-    },
-    "yapper": {
-      "meaning": "someone who talks a lot"
-    },
-    "unc": {
-      "meaning": "a joking way to refer to someone perceived as older"
-    },
-    "mog": {
-      "meaning": "to outperform or appear superior to someone"
-    },
-    "mewing": {
-      "meaning": "an internet meme involving a facial posture or jaw-related practice"
-    },
-    "looksmaxxing": {
-      "meaning": "internet slang for attempting to improve one's appearance"
-    },
-    "fanum tax": {
-      "meaning": "a meme expression for taking some of another person's food"
-    },
-    "67": {
-      "meaning": "a deliberately ambiguous or nonsensical internet meme expression"
-    },
-    "chopped": {
-      "meaning": "looking rough, messy, or unattractive in slang usage"
-    },
-    "crash out": {
-      "meaning": "to lose composure or react very strongly"
-    },
-    "NPC": {
-      "meaning": "someone portrayed as behaving predictably or without independent thought"
-    },
-    "lore": {
-      "meaning": "background information or history about a person, event, or situation"
-    },
-    "vibe": {
-      "meaning": "the general feeling, atmosphere, or impression of something"
-    }
-  },
-
   "aliases": {
-    "hiya": "hello",
+    "whats up": "what is up",
+    "wassup": "what is up",
+    "sup": "what is up",
     "howdy": "hello",
-    "sup": "hello",
-    "wassup": "hello",
-    "whatsup": "hello",
-    "what's up": "hello",
+    "hiya": "hello",
+    "yo": "hello",
+    "good morning": "morning",
+    "good afternoon": "afternoon",
+    "good evening": "evening",
+    "thx a lot": "thank you",
+    "thanks a lot": "thank you",
+    "thank u": "thank you",
+    "what r u doing": "what are you doing",
+    "how r u": "how are you",
+    "how are u": "how are you",
+    "how r you": "how are you",
+    "how you doing": "how are you doing",
+    "hows it going": "how is it going",
     "how is it going": "how are you",
-    "how's it going": "how are you",
-    "hows it going": "how are you",
-    "how have you been": "how are you",
-    "how are things": "how are you",
-    "how are things going": "how are you",
-    "you good": "how are you",
-    "you okay": "how are you",
-    "everything good": "how are you",
-    "everything okay": "how are you",
-    "what can you do": "capabilities",
-    "what do you do": "capabilities",
-    "what are your capabilities": "capabilities",
-    "what are you capable of": "capabilities",
-    "what can i ask you": "capabilities",
-    "tell me about yourself": "about",
-    "who are you": "identity",
-    "what are you": "identity",
-    "what is your name": "identity",
-    "whats your name": "identity",
-    "what's your name": "identity",
-    "introduce yourself": "identity",
+    "what can u do": "what can you do",
+    "what can you do": "what can you do",
+    "who r u": "who are you",
+    "who are u": "who are you",
+    "what is ur name": "what is your name",
+    "whats ur name": "what is your name",
+    "tell me about yourself": "tell me about you",
     "help me": "help",
-    "i need help": "help",
-    "can you help me": "help",
-    "could you help me": "help",
-    "thanks a lot": "thanks",
-    "thank you so much": "thanks",
-    "much appreciated": "thanks",
-    "i appreciate it": "thanks",
-    "see ya": "goodbye",
-    "see you": "goodbye",
-    "see you later": "goodbye",
-    "talk to you later": "goodbye",
-    "catch you later": "goodbye",
-    "have a good night": "good night",
-    "have a nice day": "goodbye",
-    "what is quantum computing": "quantum computing",
-    "whats quantum computing": "quantum computing",
-    "what's quantum computing": "quantum computing",
-    "tell me about quantum computing": "quantum computing",
-    "explain quantum computing": "quantum computing",
-    "what is a qubit": "qubit",
-    "what are qubits": "qubit",
-    "what is a quantum bit": "qubit",
-    "what is superposition": "superposition",
-    "what does superposition mean": "superposition",
-    "what is quantum entanglement": "entanglement",
-    "what is entanglement": "entanglement",
-    "what are quantum gates": "quantum gate",
-    "what is a quantum gate": "quantum gate",
-    "what is a quantum circuit": "quantum circuit",
-    "what is decoherence": "decoherence",
-    "what is a quantum algorithm": "quantum algorithm",
-    "what is quantum advantage": "quantum advantage",
-    "quantum computer vs classical computer": "classical vs quantum",
-    "quantum computing vs classical computing": "classical vs quantum"
+    "can you help": "help",
+    "can u help": "help",
+    "explain it": "explain",
+    "explain this": "explain",
+    "what does this mean": "meaning",
+    "what is this": "definition",
+    "how does this work": "explain",
+    "what time is it": "time",
+    "what is the date": "date",
+    "what day is it": "date"
   },
 
   "typos": {
-    "helo": "hello",
-    "helllo": "hello",
-    "hellooo": "hello",
-    "hllo": "hello",
-    "hlelo": "hello",
-    "heelo": "hello",
-    "hii": "hi",
-    "hiii": "hi",
-    "hhey": "hey",
-    "heyy": "hey",
-    "heyyy": "hey",
-    "gud": "good",
-    "goood": "good",
-    "godo": "good",
-    "god": "good",
-    "mornig": "morning",
-    "morining": "morning",
-    "morniing": "morning",
-    "afternon": "afternoon",
-    "afteroon": "afternoon",
-    "evenig": "evening",
-    "eveing": "evening",
-    "nigth": "night",
-    "niight": "night",
-    "nigt": "night",
+    "howw": "how",
     "haw": "how",
     "hwo": "how",
-    "hoow": "how",
-    "howw": "how",
-    "howww": "how",
-    "aree": "are",
-    "aer": "are",
-    "rae": "are",
-    "rre": "are",
+    "whatt": "what",
+    "waht": "what",
+    "wht": "what",
+    "wher": "where",
+    "wheer": "where",
+    "whre": "where",
+    "whn": "when",
+    "wen": "when",
+    "wy": "why",
+    "whyy": "why",
     "yuo": "you",
-    "oyu": "you",
     "yu": "you",
     "yoou": "you",
-    "youu": "you",
-    "youuu": "you",
-    "doign": "doing",
-    "doingg": "doing",
-    "doiin": "doing",
-    "diong": "doing",
-    "whatt": "what",
-    "whta": "what",
-    "waht": "what",
-    "whaat": "what",
-    "whre": "where",
-    "wher": "where",
-    "whrer": "where",
-    "whne": "when",
-    "wheen": "when",
-    "wwhy": "why",
+    "yor": "your",
+    "yur": "your",
+    "aree": "are",
+    "rre": "are",
+    "gud": "good",
+    "goood": "good",
+    "gooood": "good",
+    "gr8": "great",
+    "greaat": "great",
+    "thnks": "thanks",
     "thnaks": "thanks",
-    "tahnks": "thanks",
-    "thankss": "thanks",
-    "thansk": "thanks",
-    "thanls": "thanks",
-    "pleas": "please",
+    "thanx": "thanks",
+    "plsse": "please",
     "plese": "please",
-    "pleae": "please",
-    "plesee": "please",
-    "becaus": "because",
+    "heyy": "hey",
+    "heyyy": "hey",
+    "helloo": "hello",
+    "hellooo": "hello",
+    "hii": "hi",
+    "hiii": "hi",
+    "whats": "what is",
+    "wats": "what is",
+    "wat": "what",
+    "cna": "can",
+    "ca": "can",
+    "diong": "doing",
+    "doingg": "doing",
+    "abotu": "about",
+    "abt": "about",
     "becuase": "because",
-    "beacuse": "because",
-    "becouse": "because",
     "becasue": "because",
-    "explainn": "explain",
-    "exaplin": "explain",
-    "expalin": "explain",
-    "teh": "the",
-    "hte": "the",
-    "taht": "that",
-    "thta": "that",
-    "thiss": "this",
-    "thsi": "this",
-    "ths": "this",
-    "somthing": "something",
-    "somethng": "something",
-    "somethin": "something",
-    "everyting": "everything",
-    "evrything": "everything",
-    "evry": "every",
-    "realy": "really",
-    "reallly": "really",
-    "rly": "really",
-    "definately": "definitely",
-    "definatly": "definitely",
-    "definetly": "definitely",
-    "recieve": "receive",
-    "recive": "receive",
-    "seperate": "separate",
-    "occured": "occurred",
-    "untill": "until",
-    "tommorow": "tomorrow",
-    "tomorow": "tomorrow",
-    "yesturday": "yesterday",
+    "becuz": "because",
     "quantam": "quantum",
-    "quantom": "quantum",
     "qubitz": "qubits",
-    "qubits": "qubits",
     "superpostion": "superposition",
-    "superpositon": "superposition",
-    "entanglment": "entanglement",
-    "entangelment": "entanglement",
-    "decoherance": "decoherence",
-    "decoherance": "decoherence",
-    "algorithim": "algorithm",
+    "entaglement": "entanglement",
+    "cryptograpy": "cryptography",
+    "cybersecurty": "cybersecurity",
     "algoritm": "algorithm",
-    "computar": "computer",
-    "computng": "computing"
-  },
-
-  "normalization": {
-    "lowercase": true,
-    "trim": true,
-    "remove_extra_spaces": true,
-    "remove_punctuation": true,
-    "collapse_repeated_letters": true,
-    "max_repeated_letters": 1,
-    "expand_slang": true,
-    "correct_typos": true,
-    "apply_aliases": true,
-    "normalize_apostrophes": true,
-    "normalize_numbers": true
-  },
-
-  "knowledge": {
-    "quantum_computing": {
-      "title": "Quantum Computing",
-      "definition": "Quantum computing is a computing paradigm based on quantum mechanical effects such as superposition and entanglement.",
-      "keywords": [
-        "quantum",
-        "computing",
-        "quantum computer",
-        "quantum computation",
-        "quantum information"
-      ],
-      "related_topics": [
-        "qubit",
-        "superposition",
-        "entanglement",
-        "interference",
-        "measurement",
-        "quantum gate",
-        "quantum circuit",
-        "decoherence",
-        "quantum algorithm",
-        "quantum error correction",
-        "quantum advantage"
-      ]
-    },
-
-    "qubit": {
-      "title": "Qubit",
-      "definition": "A qubit is the basic unit of quantum information. Unlike a classical bit, whose computational state is conventionally 0 or 1, a qubit can exist in a quantum superposition of basis states.",
-      "keywords": [
-        "qubit",
-        "qubits",
-        "quantum bit",
-        "quantum bits"
-      ],
-      "related_topics": [
-        "bit",
-        "superposition",
-        "measurement",
-        "quantum state"
-      ]
-    },
-
-    "superposition": {
-      "title": "Superposition",
-      "definition": "Quantum superposition describes a quantum state as a combination of possible basis states. A measurement produces a classical outcome according to probabilities determined by the quantum state.",
-      "keywords": [
-        "superposition",
-        "quantum superposition",
-        "superposed state"
-      ],
-      "related_topics": [
-        "qubit",
-        "measurement",
-        "interference",
-        "quantum state"
-      ]
-    },
-
-    "entanglement": {
-      "title": "Quantum Entanglement",
-      "definition": "Quantum entanglement is a type of quantum correlation in which the combined state of multiple quantum systems cannot be represented as independent states of the individual systems.",
-      "keywords": [
-        "entanglement",
-        "quantum entanglement",
-        "entangled qubits",
-        "entangled state"
-      ],
-      "related_topics": [
-        "qubit",
-        "superposition",
-        "Bell state",
-        "CNOT",
-        "quantum correlation"
-      ]
-    },
-
-    "interference": {
-      "title": "Quantum Interference",
-      "definition": "Quantum interference occurs when probability amplitudes combine, allowing some outcomes to be reinforced and others to be suppressed.",
-      "keywords": [
-        "interference",
-        "quantum interference",
-        "amplitude"
-      ],
-      "related_topics": [
-        "superposition",
-        "quantum algorithm",
-        "measurement"
-      ]
-    },
-
-    "measurement": {
-      "title": "Quantum Measurement",
-      "definition": "Quantum measurement produces a classical result from a quantum state. Measurement generally changes the state being measured.",
-      "keywords": [
-        "measurement",
-        "measure",
-        "quantum measurement",
-        "measuring a qubit"
-      ],
-      "related_topics": [
-        "qubit",
-        "superposition",
-        "probability",
-        "quantum state"
-      ]
-    },
-
-    "quantum_gate": {
-      "title": "Quantum Gate",
-      "definition": "A quantum gate is an operation that transforms one or more qubits. Quantum gates are the basic operations used to construct quantum circuits.",
-      "keywords": [
-        "quantum gate",
-        "quantum gates",
-        "gate"
-      ],
-      "examples": [
-        "X gate",
-        "Y gate",
-        "Z gate",
-        "Hadamard gate",
-        "CNOT gate",
-        "CZ gate",
-        "SWAP gate",
-        "T gate"
-      ],
-      "related_topics": [
-        "qubit",
-        "quantum circuit",
-        "unitary operation"
-      ]
-    },
-
-    "hadamard_gate": {
-      "title": "Hadamard Gate",
-      "definition": "The Hadamard gate is a single-qubit quantum gate commonly used to create superposition from computational basis states.",
-      "keywords": [
-        "hadamard",
-        "hadamard gate",
-        "H gate"
-      ],
-      "related_topics": [
-        "superposition",
-        "qubit",
-        "quantum circuit"
-      ]
-    },
-
-    "cnot": {
-      "title": "CNOT Gate",
-      "definition": "The controlled-NOT gate is a two-qubit operation with a control qubit and a target qubit. It flips the target when the control is in the appropriate computational basis state.",
-      "keywords": [
-        "CNOT",
-        "CNOT gate",
-        "controlled NOT",
-        "controlled-not"
-      ],
-      "related_topics": [
-        "entanglement",
-        "quantum gate",
-        "control qubit",
-        "target qubit"
-      ]
-    },
-
-    "quantum_circuit": {
-      "title": "Quantum Circuit",
-      "definition": "A quantum circuit represents a quantum computation as a sequence of operations applied to qubits, followed by measurements when classical results are needed.",
-      "keywords": [
-        "quantum circuit",
-        "quantum circuits",
-        "circuit"
-      ],
-      "related_topics": [
-        "qubit",
-        "quantum gate",
-        "measurement",
-        "quantum algorithm"
-      ]
-    },
-
-    "decoherence": {
-      "title": "Decoherence",
-      "definition": "Decoherence is the loss of quantum coherence caused by interactions between a quantum system and its environment. It is a major challenge for practical quantum computing.",
-      "keywords": [
-        "decoherence",
-        "quantum decoherence",
-        "coherence"
-      ],
-      "related_topics": [
-        "quantum error",
-        "noise",
-        "qubit",
-        "quantum error correction"
-      ]
-    },
-
-    "quantum_algorithm": {
-      "title": "Quantum Algorithm",
-      "definition": "A quantum algorithm is an algorithm designed to use quantum operations and quantum mechanical effects to solve a computational problem.",
-      "keywords": [
-        "quantum algorithm",
-        "quantum algorithms"
-      ],
-      "examples": [
-        "Shor's algorithm",
-        "Grover's algorithm",
-        "Deutsch-Jozsa algorithm",
-        "Simon's algorithm"
-      ],
-      "related_topics": [
-        "quantum circuit",
-        "qubit",
-        "superposition",
-        "interference"
-      ]
-    },
-
-    "shors_algorithm": {
-      "title": "Shor's Algorithm",
-      "definition": "Shor's algorithm is a quantum algorithm for integer factorization and related number-theoretic problems. Its theoretical speedup is important to modern cryptography.",
-      "keywords": [
-        "Shor",
-        "Shor's algorithm",
-        "Shor algorithm",
-        "factorization"
-      ],
-      "related_topics": [
-        "quantum algorithm",
-        "cryptography",
-        "period finding"
-      ]
-    },
-
-    "grovers_algorithm": {
-      "title": "Grover's Algorithm",
-      "definition": "Grover's algorithm is a quantum search algorithm that can provide a quadratic speedup for searching an unstructured space compared with straightforward classical search.",
-      "keywords": [
-        "Grover",
-        "Grover's algorithm",
-        "Grover algorithm",
-        "quantum search"
-      ],
-      "related_topics": [
-        "quantum algorithm",
-        "search",
-        "amplitude amplification"
-      ]
-    },
-
-    "quantum_error_correction": {
-      "title": "Quantum Error Correction",
-      "definition": "Quantum error correction uses additional quantum resources and carefully designed procedures to protect quantum information from errors and noise.",
-      "keywords": [
-        "quantum error correction",
-        "error correction",
-        "QEC",
-        "quantum errors"
-      ],
-      "related_topics": [
-        "decoherence",
-        "noise",
-        "logical qubit",
-        "physical qubit"
-      ]
-    },
-
-    "quantum_advantage": {
-      "title": "Quantum Advantage",
-      "definition": "Quantum advantage describes a situation where a quantum computer provides a meaningful computational advantage over available classical approaches for a particular task.",
-      "keywords": [
-        "quantum advantage",
-        "quantum speedup",
-        "quantum supremacy"
-      ],
-      "related_topics": [
-        "quantum algorithm",
-        "classical computing",
-        "quantum computer"
-      ]
-    },
-
-    "classical_vs_quantum": {
-      "title": "Classical vs Quantum Computing",
-      "definition": "Classical computers use bits and classical logic, while quantum computers use qubits and quantum operations. Quantum computers are not universally faster; their potential advantages depend on the problem and algorithm.",
-      "keywords": [
-        "classical vs quantum",
-        "quantum vs classical",
-        "quantum computer vs computer",
-        "difference between classical and quantum computing"
-      ],
-      "related_topics": [
-        "bit",
-        "qubit",
-        "quantum algorithm",
-        "quantum advantage"
-      ]
-    },
-
-    "bit": {
-      "title": "Classical Bit",
-      "definition": "A classical bit is a basic unit of classical digital information and is conventionally represented as either 0 or 1.",
-      "keywords": [
-        "bit",
-        "classical bit",
-        "binary bit"
-      ],
-      "related_topics": [
-        "qubit",
-        "binary",
-        "classical computing"
-      ]
-    },
-
-    "quantum_state": {
-      "title": "Quantum State",
-      "definition": "A quantum state describes the physical information needed to characterize a quantum system and determine the probabilities of measurement outcomes.",
-      "keywords": [
-        "quantum state",
-        "state vector",
-        "state"
-      ],
-      "related_topics": [
-        "qubit",
-        "superposition",
-        "measurement",
-        "entanglement"
-      ]
-    },
-
-    "logical_qubit": {
-      "title": "Logical Qubit",
-      "definition": "A logical qubit is an encoded qubit whose information is distributed across multiple physical qubits so that quantum error-correction techniques can detect and correct certain errors.",
-      "keywords": [
-        "logical qubit",
-        "logical qubits"
-      ],
-      "related_topics": [
-        "physical qubit",
-        "quantum error correction",
-        "error correction"
-      ]
-    },
-
-    "physical_qubit": {
-      "title": "Physical Qubit",
-      "definition": "A physical qubit is an actual quantum system used to implement quantum information, such as a superconducting circuit, trapped ion, or another physical platform.",
-      "keywords": [
-        "physical qubit",
-        "physical qubits"
-      ],
-      "related_topics": [
-        "logical qubit",
-        "quantum hardware",
-        "decoherence"
-      ]
-    }
+    "algorithim": "algorithm",
+    "programing": "programming",
+    "javscript": "javascript",
+    "javasript": "javascript",
+    "pyhton": "python",
+    "phyton": "python",
+    "computr": "computer",
+    "compuer": "computer",
+    "netowrk": "network",
+    "serrver": "server",
+    "securty": "security",
+    "databse": "database",
+    "webiste": "website",
+    "brower": "browser"
   },
 
   "intents": [
     {
       "id": "GREETING",
-      "priority": 10,
+      "priority": 20,
       "patterns": [
-        ["hello"],
-        ["hi"],
-        ["hey"],
-        ["greetings"],
-        ["good", "morning"],
-        ["good", "afternoon"],
-        ["good", "evening"]
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "hello there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "yo"
       ],
       "responses": [
         "Hello.",
+        "Hey.",
         "Hi. How can I help?",
-        "Hey. What are we working on?",
-        "Hello there."
+        "Hello. What would you like to talk about?"
       ]
     },
-
     {
       "id": "GREETING_STATUS",
-      "priority": 40,
-      "patterns": [
-        ["how", "are", "you"],
-        ["how", "are", "you", "doing"],
-        ["how", "have", "you", "been"],
-        ["how", "is", "it", "going"],
-        ["how", "are", "things"],
-        ["how", "are", "things", "going"],
-        ["you", "good"],
-        ["you", "okay"],
-        ["everything", "good"],
-        ["everything", "okay"]
-      ],
-      "responses": [
-        "I'm doing well. What can I help you with?",
-        "I'm running normally. What are we working on?",
-        "I'm good. Ready for the next question."
-      ]
-    },
-
-    {
-      "id": "QUANTUM_COMPUTING",
-      "priority": 50,
-      "patterns": [
-        ["quantum", "computing"],
-        ["quantum", "computer"],
-        ["quantum", "computation"],
-        ["what", "is", "quantum", "computing"],
-        ["explain", "quantum", "computing"],
-        ["tell", "me", "about", "quantum", "computing"]
-      ],
-      "knowledge": "quantum_computing"
-    },
-
-    {
-      "id": "QUANTUM_TOPIC",
-      "priority": 50,
-      "patterns": [
-        ["qubit"],
-        ["superposition"],
-        ["entanglement"],
-        ["interference"],
-        ["measurement"],
-        ["quantum", "gate"],
-        ["quantum", "circuit"],
-        ["decoherence"],
-        ["quantum", "algorithm"],
-        ["quantum", "advantage"],
-        ["quantum", "error", "correction"],
-        ["logical", "qubit"],
-        ["physical", "qubit"],
-        ["quantum", "state"],
-        ["classical", "vs", "quantum"]
-      ],
-      "knowledge_lookup": true
-    },
-
-    {
-      "id": "THANKS",
       "priority": 25,
       "patterns": [
-        ["thanks"],
-        ["thank", "you"],
-        ["thank", "you", "so", "much"],
-        ["much", "appreciated"]
+        "how are you",
+        "how are you doing",
+        "how is it going",
+        "how are things",
+        "are you doing good",
+        "are you okay"
+      ],
+      "responses": [
+        "I'm operating normally.",
+        "I'm doing well and ready to help.",
+        "All systems are running normally."
+      ]
+    },
+    {
+      "id": "IDENTITY",
+      "priority": 20,
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about you",
+        "tell me about yourself",
+        "what is your name"
+      ],
+      "responses": [
+        "I'm RuleMind, a deterministic rule-based conversational engine.",
+        "I'm RuleMind. I use normalization, vocabulary, rules, intent detection, and knowledge data to process messages."
+      ]
+    },
+    {
+      "id": "CAPABILITIES",
+      "priority": 20,
+      "patterns": [
+        "what can you do",
+        "what are your capabilities",
+        "what do you do",
+        "how can you help",
+        "what can i ask"
+      ],
+      "responses": [
+        "I can process natural-language input using deterministic rules, normalize slang and typos, detect intents, perform simple calculations, maintain session context, and answer questions from my knowledge base.",
+        "I can handle conversations, normalization, intent matching, calculations, vocabulary processing, and structured knowledge."
+      ]
+    },
+    {
+      "id": "THANKS",
+      "priority": 20,
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "thank you so much",
+        "i appreciate it"
       ],
       "responses": [
         "You're welcome.",
         "No problem.",
-        "Anytime.",
         "Glad I could help."
       ]
     },
-
     {
-      "id": "IDENTITY",
-      "priority": 25,
+      "id": "FAREWELL",
+      "priority": 20,
       "patterns": [
-        ["who", "are", "you"],
-        ["what", "are", "you"],
-        ["what", "is", "your", "name"],
-        ["introduce", "yourself"]
-      ],
-      "responses": [
-        "I'm RuleMind, a rule-based conversational AI.",
-        "I'm RuleMind. My behavior is driven by vocabulary, normalization, rules, knowledge, and context."
-      ]
-    },
-
-    {
-      "id": "CAPABILITIES",
-      "priority": 25,
-      "patterns": [
-        ["what", "can", "you", "do"],
-        ["what", "do", "you", "do"],
-        ["what", "are", "your", "capabilities"],
-        ["what", "are", "you", "capable", "of"]
-      ],
-      "responses": [
-        "I can normalize language, recognize intents, use structured knowledge, handle slang and common typos, and select responses using rules.",
-        "My behavior comes from deterministic rules and data rather than a neural language model."
-      ]
-    },
-
-    {
-      "id": "HELP",
-      "priority": 25,
-      "patterns": [
-        ["help"],
-        ["help", "me"],
-        ["i", "need", "help"],
-        ["can", "you", "help", "me"]
-      ],
-      "responses": [
-        "Sure. Tell me what you need help with.",
-        "What do you need help with?",
-        "Describe the problem and I'll see which rules apply."
-      ]
-    },
-
-    {
-      "id": "GOODBYE",
-      "priority": 15,
-      "patterns": [
-        ["bye"],
-        ["goodbye"],
-        ["see", "you"],
-        ["see", "you", "later"],
-        ["talk", "to", "you", "later"]
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "talk to you later"
       ],
       "responses": [
         "Goodbye.",
@@ -1176,173 +512,864 @@
         "Take care."
       ]
     },
-
     {
       "id": "POSITIVE",
-      "priority": 10,
+      "priority": 15,
       "patterns": [
-        ["good"],
-        ["great"],
-        ["awesome"],
-        ["nice"],
-        ["cool"],
-        ["excellent"],
-        ["perfect"],
-        ["fire"]
+        "good",
+        "great",
+        "awesome",
+        "excellent",
+        "amazing",
+        "nice",
+        "cool"
       ],
       "responses": [
-        "Good to hear.",
-        "Sounds good.",
+        "Good.",
         "Nice.",
-        "Great."
+        "That's good to hear."
       ]
     },
-
     {
-      "id": "NEGATIVE",
-      "priority": 10,
+      "id": "HELP",
+      "priority": 25,
       "patterns": [
-        ["bad"],
-        ["terrible"],
-        ["awful"],
-        ["horrible"],
-        ["not", "good"],
-        ["mid"]
+        "help",
+        "help me",
+        "can you help",
+        "i need help",
+        "what should i do"
       ],
       "responses": [
-        "That doesn't sound ideal.",
-        "Understood.",
-        "Let's see if we can work through it."
+        "Sure. Tell me what you need help with.",
+        "I can help. Give me the problem or question."
       ]
     },
-
     {
-      "id": "AGREEMENT",
-      "priority": 12,
+      "id": "QUANTUM_COMPUTING",
+      "priority": 30,
       "patterns": [
-        ["yes"],
-        ["yeah"],
-        ["yep"],
-        ["yup"],
-        ["correct"],
-        ["exactly"],
-        ["right"],
-        ["sure"],
-        ["bet"],
-        ["valid"]
+        "quantum computing",
+        "quantum computer",
+        "quantum computers",
+        "what is quantum computing",
+        "what is a quantum computer"
       ],
       "responses": [
-        "Understood.",
-        "Okay.",
-        "Got it.",
-        "Makes sense."
+        "Quantum computing uses quantum mechanical systems to process information. Its basic information unit is the qubit."
       ]
     },
-
     {
-      "id": "DISAGREEMENT",
-      "priority": 12,
+      "id": "ARTIFICIAL_INTELLIGENCE",
+      "priority": 30,
       "patterns": [
-        ["no"],
-        ["nope"],
-        ["nah"],
-        ["not", "really"],
-        ["thats", "wrong"],
-        ["you", "are", "wrong"]
+        "artificial intelligence",
+        "what is ai",
+        "what is artificial intelligence",
+        "explain ai"
       ],
       "responses": [
-        "Understood.",
-        "Okay. I'll reconsider the input.",
-        "Got it."
+        "Artificial intelligence is the field of building systems that perform tasks associated with abilities such as learning, reasoning, perception, language processing, and decision making."
       ]
     },
-
     {
-      "id": "CONFUSION",
-      "priority": 20,
+      "id": "MACHINE_LEARNING",
+      "priority": 30,
       "patterns": [
-        ["i", "dont", "understand"],
-        ["i", "do", "not", "understand"],
-        ["what", "does", "that", "mean"],
-        ["what", "do", "you", "mean"],
-        ["i", "am", "confused"],
-        ["im", "confused"]
+        "machine learning",
+        "what is machine learning",
+        "explain machine learning"
       ],
       "responses": [
-        "I can explain it differently.",
-        "Let me break it down.",
-        "Tell me which part is unclear."
+        "Machine learning is a branch of AI in which systems learn patterns from data and use those patterns to make predictions or decisions."
       ]
     },
-
     {
-      "id": "REPEAT",
-      "priority": 20,
+      "id": "PROGRAMMING",
+      "priority": 25,
       "patterns": [
-        ["say", "that", "again"],
-        ["repeat", "that"],
-        ["can", "you", "repeat"],
-        ["what", "did", "you", "say"],
-        ["say", "it", "again"]
+        "what is programming",
+        "what is coding",
+        "explain programming",
+        "programming",
+        "coding"
       ],
       "responses": [
-        "Sure. I'll repeat that.",
-        "Of course. I'll explain it again.",
-        "Sure. Let me restate it."
+        "Programming is the process of designing instructions that computers can execute."
       ]
     },
-
     {
-      "id": "COMPLIMENT",
-      "priority": 15,
+      "id": "CYBERSECURITY",
+      "priority": 25,
       "patterns": [
-        ["you", "are", "smart"],
-        ["you", "are", "good"],
-        ["you", "are", "awesome"],
-        ["you", "are", "great"],
-        ["good", "job"]
+        "what is cybersecurity",
+        "cybersecurity",
+        "what is cyber security",
+        "explain cybersecurity"
       ],
       "responses": [
-        "Thanks.",
-        "I appreciate that.",
-        "Glad the system worked."
+        "Cybersecurity is the practice of protecting systems, networks, applications, and data from unauthorized access, misuse, disruption, or damage."
       ]
     },
-
     {
-      "id": "SORRY",
-      "priority": 15,
+      "id": "INTERNET",
+      "priority": 25,
       "patterns": [
-        ["sorry"],
-        ["i", "am", "sorry"],
-        ["my", "bad"],
-        ["my", "mistake"]
+        "what is the internet",
+        "what is internet",
+        "explain the internet",
+        "internet"
       ],
       "responses": [
-        "No problem.",
-        "It's okay.",
-        "No worries."
+        "The Internet is a global network of interconnected computer networks that communicate using standardized protocols."
       ]
     },
-
     {
       "id": "UNKNOWN",
       "priority": 0,
-      "responses": [
-        "I don't have a rule for that yet.",
-        "I don't recognize that input yet.",
-        "That isn't covered by my current knowledge base.",
-        "I need another rule to handle that.",
-        "I understand some of the input, but I don't have a matching intent."
-      ]
+      "patterns": [],
+      "responses": []
     }
   ],
 
-  "fallbacks": [
-    "I don't have a rule for that yet.",
-    "I don't recognize that input yet.",
-    "That isn't covered by my current knowledge base.",
-    "I need another rule to handle that.",
-    "I don't have enough information to determine the correct response."
-  ]
+  "knowledge": {
+    "quantum_computing": {
+      "title": "Quantum Computing",
+      "aliases": [
+        "quantum computing",
+        "quantum computer",
+        "quantum computers",
+        "quantum computation",
+        "qc"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is quantum computing",
+            "what is a quantum computer",
+            "explain quantum computing",
+            "quantum computing definition",
+            "quantum computing meaning"
+          ],
+          "response": "Quantum computing is a form of computing that uses quantum mechanical systems to process information. Instead of ordinary bits, quantum computers use qubits and quantum operations."
+        },
+        "qubit": {
+          "keywords": [
+            "what is a qubit",
+            "what are qubits",
+            "explain qubits",
+            "quantum bit",
+            "quantum bits"
+          ],
+          "response": "A qubit is the basic unit of quantum information. Unlike a classical bit, a qubit can be prepared in a quantum superposition of states. Measurement produces a classical result."
+        },
+        "superposition": {
+          "keywords": [
+            "what is superposition",
+            "quantum superposition",
+            "explain superposition",
+            "qubit superposition"
+          ],
+          "response": "Superposition describes a quantum state as a combination of possible basis states. It allows quantum algorithms to manipulate probability amplitudes before measurement."
+        },
+        "entanglement": {
+          "keywords": [
+            "what is quantum entanglement",
+            "quantum entanglement",
+            "explain entanglement",
+            "entangled qubits"
+          ],
+          "response": "Quantum entanglement is a form of correlation between quantum systems that cannot be fully described by treating each system independently."
+        },
+        "measurement": {
+          "keywords": [
+            "quantum measurement",
+            "what happens when a qubit is measured",
+            "measuring a qubit",
+            "quantum measurement explained"
+          ],
+          "response": "Quantum measurement converts quantum information into a classical result. The probability of each result depends on the quantum state before measurement."
+        },
+        "gates": {
+          "keywords": [
+            "quantum gates",
+            "quantum gate",
+            "what are quantum gates",
+            "quantum logic gates"
+          ],
+          "response": "Quantum gates are operations that transform quantum states. Examples include X, Y, Z, H, S, T, and controlled gates such as CNOT."
+        },
+        "circuits": {
+          "keywords": [
+            "quantum circuit",
+            "quantum circuits",
+            "what is a quantum circuit",
+            "explain quantum circuits"
+          ],
+          "response": "A quantum circuit is a sequence of quantum operations applied to qubits, generally followed by measurement."
+        },
+        "algorithms": {
+          "keywords": [
+            "quantum algorithms",
+            "quantum algorithm",
+            "famous quantum algorithms",
+            "examples of quantum algorithms"
+          ],
+          "response": "Important quantum algorithms include Shor's algorithm for factoring and Grover's algorithm for searching an unstructured space."
+        },
+        "shor": {
+          "keywords": [
+            "shor algorithm",
+            "shors algorithm",
+            "what is shor algorithm",
+            "quantum factoring"
+          ],
+          "response": "Shor's algorithm is a quantum algorithm that can find the period of certain mathematical functions and can be used to factor integers efficiently on a sufficiently powerful fault-tolerant quantum computer."
+        },
+        "grover": {
+          "keywords": [
+            "grover algorithm",
+            "grovers algorithm",
+            "what is grover algorithm",
+            "quantum search"
+          ],
+          "response": "Grover's algorithm provides a quadratic speedup for searching an unstructured space, reducing the ideal query complexity from roughly N to the square root of N."
+        },
+        "decoherence": {
+          "keywords": [
+            "what is decoherence",
+            "quantum decoherence",
+            "decoherence in quantum computing"
+          ],
+          "response": "Decoherence occurs when interactions with the environment disrupt useful quantum coherence. It is a major challenge for quantum hardware."
+        },
+        "error_correction": {
+          "keywords": [
+            "quantum error correction",
+            "quantum error correction codes",
+            "why quantum computers need error correction"
+          ],
+          "response": "Quantum error correction protects logical quantum information by encoding it across multiple physical qubits and using measurements to detect and correct certain errors."
+        },
+        "classical_vs_quantum": {
+          "keywords": [
+            "quantum vs classical computing",
+            "quantum computer vs classical computer",
+            "difference between quantum and classical computing",
+            "are quantum computers faster"
+          ],
+          "response": "Classical computers use bits and classical logic. Quantum computers use qubits and quantum operations. Quantum computers can provide advantages for specific problems, but they are not universally faster."
+        },
+        "hardware": {
+          "keywords": [
+            "quantum computer hardware",
+            "types of quantum computers",
+            "quantum computing hardware",
+            "how are quantum computers built"
+          ],
+          "response": "Quantum computers can use different physical platforms, including superconducting circuits, trapped ions, neutral atoms, and photonic systems."
+        },
+        "applications": {
+          "keywords": [
+            "quantum computing applications",
+            "uses of quantum computing",
+            "what are quantum computers used for",
+            "quantum computing use cases"
+          ],
+          "response": "Potential applications include quantum simulation, chemistry, materials research, optimization, cryptography, and specialized search and sampling problems."
+        },
+        "cryptography": {
+          "keywords": [
+            "quantum computing cryptography",
+            "quantum computers cryptography",
+            "quantum computing and encryption",
+            "quantum computers encryption"
+          ],
+          "response": "A sufficiently powerful fault-tolerant quantum computer could threaten some public-key cryptographic systems because of algorithms such as Shor's algorithm. This motivates post-quantum cryptography."
+        },
+        "bloch_sphere": {
+          "keywords": [
+            "bloch sphere",
+            "what is the bloch sphere",
+            "explain bloch sphere",
+            "qubit bloch sphere"
+          ],
+          "response": "The Bloch sphere is a geometric representation of the state of a single qubit. It is useful for visualizing quantum states and many single-qubit operations."
+        }
+      }
+    },
+
+    "artificial_intelligence": {
+      "title": "Artificial Intelligence",
+      "aliases": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is ai",
+            "what is artificial intelligence",
+            "define artificial intelligence",
+            "explain artificial intelligence"
+          ],
+          "response": "Artificial intelligence is the field of creating computational systems capable of performing tasks associated with abilities such as learning, reasoning, perception, language processing, and decision making."
+        },
+        "machine_learning": {
+          "keywords": [
+            "what is machine learning",
+            "machine learning",
+            "explain machine learning"
+          ],
+          "response": "Machine learning is a branch of AI where systems learn patterns from data and use those patterns to make predictions or decisions."
+        },
+        "deep_learning": {
+          "keywords": [
+            "what is deep learning",
+            "deep learning",
+            "explain deep learning"
+          ],
+          "response": "Deep learning is machine learning based on neural networks with multiple computational layers that can learn increasingly complex representations."
+        },
+        "neural_network": {
+          "keywords": [
+            "what is a neural network",
+            "neural networks",
+            "explain neural networks"
+          ],
+          "response": "A neural network is a computational model made from interconnected processing units. Training adjusts its parameters so that it learns patterns from examples."
+        },
+        "llm": {
+          "keywords": [
+            "what is an llm",
+            "what are llms",
+            "large language model",
+            "large language models",
+            "explain llm"
+          ],
+          "response": "A large language model is a machine-learning model trained to model and generate sequences of language. Many modern LLMs use transformer architectures."
+        },
+        "training": {
+          "keywords": [
+            "how are ai models trained",
+            "how is ai trained",
+            "machine learning training",
+            "what is model training"
+          ],
+          "response": "Training adjusts a model's parameters using data and an optimization process so that the model becomes better at a specified task."
+        },
+        "inference": {
+          "keywords": [
+            "what is ai inference",
+            "what is inference",
+            "machine learning inference",
+            "model inference"
+          ],
+          "response": "Inference is the process of using a trained model to produce an output from new input data."
+        },
+        "transformer": {
+          "keywords": [
+            "what is a transformer",
+            "transformer model",
+            "transformer architecture",
+            "explain transformers"
+          ],
+          "response": "A transformer is a neural network architecture that uses attention mechanisms to process relationships between elements in a sequence. It is widely used in modern language and multimodal models."
+        }
+      }
+    },
+
+    "programming": {
+      "title": "Programming",
+      "aliases": [
+        "programming",
+        "coding",
+        "software development"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is programming",
+            "what is coding",
+            "explain programming"
+          ],
+          "response": "Programming is the process of designing instructions that a computer can execute."
+        },
+        "algorithm": {
+          "keywords": [
+            "what is an algorithm",
+            "what are algorithms",
+            "explain algorithms"
+          ],
+          "response": "An algorithm is a defined procedure for solving a problem or completing a task."
+        },
+        "variable": {
+          "keywords": [
+            "what is a variable",
+            "programming variable",
+            "explain variables"
+          ],
+          "response": "A variable is a named reference used by a program to store or access a value."
+        },
+        "function": {
+          "keywords": [
+            "what is a function",
+            "programming functions",
+            "explain functions"
+          ],
+          "response": "A function is a reusable unit of program logic that can accept inputs and optionally return an output."
+        },
+        "loop": {
+          "keywords": [
+            "what is a loop",
+            "programming loop",
+            "what are loops",
+            "explain loops"
+          ],
+          "response": "A loop repeatedly executes a block of code while a condition remains satisfied or while items remain in a sequence."
+        },
+        "object": {
+          "keywords": [
+            "what is an object",
+            "programming object",
+            "object oriented programming"
+          ],
+          "response": "In object-oriented programming, an object combines state and behavior. Objects are commonly created from classes or other object definitions."
+        }
+      }
+    },
+
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "aliases": [
+        "cybersecurity",
+        "cyber security",
+        "information security",
+        "infosec"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is cybersecurity",
+            "what is cyber security",
+            "explain cybersecurity"
+          ],
+          "response": "Cybersecurity is the practice of protecting systems, networks, applications, and data from unauthorized access, misuse, disruption, or damage."
+        },
+        "vulnerability": {
+          "keywords": [
+            "what is a vulnerability",
+            "cybersecurity vulnerability",
+            "security vulnerability"
+          ],
+          "response": "A vulnerability is a weakness in software, hardware, configuration, or process that could potentially be exploited to violate a security property."
+        },
+        "malware": {
+          "keywords": [
+            "what is malware",
+            "types of malware",
+            "explain malware"
+          ],
+          "response": "Malware is software designed to perform unwanted or harmful actions. Common categories include viruses, worms, trojans, ransomware, spyware, and botnet malware."
+        },
+        "encryption": {
+          "keywords": [
+            "what is encryption",
+            "explain encryption",
+            "how does encryption work"
+          ],
+          "response": "Encryption transforms readable information into an encoded form using a cryptographic method and key so that unauthorized parties cannot easily read it."
+        },
+        "hashing": {
+          "keywords": [
+            "what is hashing",
+            "what is a hash",
+            "explain hashing"
+          ],
+          "response": "Hashing transforms input data into a fixed-size digest using a hash function. Cryptographic hashes are designed to make certain forms of reverse engineering and collision finding computationally difficult."
+        },
+        "authentication": {
+          "keywords": [
+            "what is authentication",
+            "explain authentication",
+            "authentication vs authorization"
+          ],
+          "response": "Authentication verifies who or what an entity is. Authorization determines what that authenticated entity is allowed to access or do."
+        },
+        "least_privilege": {
+          "keywords": [
+            "what is least privilege",
+            "principle of least privilege",
+            "least privilege security"
+          ],
+          "response": "The principle of least privilege means giving users, applications, and systems only the permissions they need to perform their intended tasks."
+        }
+      }
+    },
+
+    "networking": {
+      "title": "Computer Networking",
+      "aliases": [
+        "networking",
+        "computer networks",
+        "computer networking"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is networking",
+            "what is computer networking",
+            "explain networking"
+          ],
+          "response": "Computer networking is the practice of connecting computing systems so they can exchange data and share resources."
+        },
+        "ip": {
+          "keywords": [
+            "what is an ip address",
+            "what is ip",
+            "explain ip addresses"
+          ],
+          "response": "An IP address identifies a network interface or endpoint within an IP network. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses."
+        },
+        "dns": {
+          "keywords": [
+            "what is dns",
+            "what does dns do",
+            "explain dns"
+          ],
+          "response": "DNS translates domain names into information such as IP addresses, allowing applications to locate network services by name."
+        },
+        "http": {
+          "keywords": [
+            "what is http",
+            "what is https",
+            "explain http",
+            "explain https"
+          ],
+          "response": "HTTP is an application-layer protocol used for transferring resources between clients and servers. HTTPS is HTTP protected by TLS."
+        },
+        "tcp": {
+          "keywords": [
+            "what is tcp",
+            "explain tcp",
+            "tcp protocol"
+          ],
+          "response": "TCP is a connection-oriented transport protocol that provides reliable, ordered delivery of a byte stream between endpoints."
+        },
+        "udp": {
+          "keywords": [
+            "what is udp",
+            "explain udp",
+            "udp protocol"
+          ],
+          "response": "UDP is a connectionless transport protocol that sends datagrams without providing TCP-style guarantees of delivery or ordering."
+        },
+        "router": {
+          "keywords": [
+            "what is a router",
+            "what does a router do",
+            "explain routers"
+          ],
+          "response": "A router forwards packets between networks based on routing information."
+        }
+      }
+    },
+
+    "databases": {
+      "title": "Databases",
+      "aliases": [
+        "database",
+        "databases",
+        "db",
+        "dbms"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is a database",
+            "what are databases",
+            "explain databases"
+          ],
+          "response": "A database is an organized collection of data that can be stored, queried, modified, and managed by software."
+        },
+        "sql": {
+          "keywords": [
+            "what is sql",
+            "what does sql mean",
+            "explain sql"
+          ],
+          "response": "SQL is a language used to define, query, manipulate, and manage data in relational database systems."
+        },
+        "relational": {
+          "keywords": [
+            "what is a relational database",
+            "relational database",
+            "explain relational databases"
+          ],
+          "response": "A relational database organizes data into tables containing rows and columns and typically uses relationships and keys to connect related data."
+        },
+        "nosql": {
+          "keywords": [
+            "what is nosql",
+            "nosql database",
+            "explain nosql"
+          ],
+          "response": "NoSQL is a broad category of database systems that do not rely exclusively on the traditional relational table model. Examples include document, key-value, graph, and wide-column databases."
+        }
+      }
+    },
+
+    "web_development": {
+      "title": "Web Development",
+      "aliases": [
+        "web development",
+        "web development",
+        "frontend",
+        "backend"
+      ],
+      "topics": {
+        "html": {
+          "keywords": [
+            "what is html",
+            "explain html",
+            "html meaning"
+          ],
+          "response": "HTML is the markup language used to structure content on the Web."
+        },
+        "css": {
+          "keywords": [
+            "what is css",
+            "explain css",
+            "css meaning"
+          ],
+          "response": "CSS is a stylesheet language used to control the presentation and layout of documents such as HTML pages."
+        },
+        "javascript": {
+          "keywords": [
+            "what is javascript",
+            "what is js",
+            "explain javascript"
+          ],
+          "response": "JavaScript is a programming language widely used to add behavior and interactivity to web pages and to build applications outside the browser."
+        },
+        "api": {
+          "keywords": [
+            "what is an api",
+            "what is api",
+            "explain api",
+            "application programming interface"
+          ],
+          "response": "An API is an interface that defines how software components can communicate and request functionality or data from one another."
+        },
+        "frontend": {
+          "keywords": [
+            "what is frontend",
+            "frontend development",
+            "front end development"
+          ],
+          "response": "Frontend development focuses on the parts of an application that users interact with directly, commonly including HTML, CSS, and JavaScript in web applications."
+        },
+        "backend": {
+          "keywords": [
+            "what is backend",
+            "backend development",
+            "back end development"
+          ],
+          "response": "Backend development focuses on server-side logic, databases, APIs, authentication, and other systems supporting an application's frontend."
+        }
+      }
+    },
+
+    "operating_systems": {
+      "title": "Operating Systems",
+      "aliases": [
+        "operating system",
+        "operating systems",
+        "os"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is an operating system",
+            "what is an os",
+            "explain operating systems"
+          ],
+          "response": "An operating system is system software that manages hardware resources and provides services and abstractions for applications."
+        },
+        "process": {
+          "keywords": [
+            "what is a process",
+            "operating system process",
+            "explain processes"
+          ],
+          "response": "A process is an instance of a running program together with its associated execution state and resources."
+        },
+        "thread": {
+          "keywords": [
+            "what is a thread",
+            "operating system thread",
+            "explain threads"
+          ],
+          "response": "A thread is an execution path within a process. Multiple threads can share resources belonging to the same process."
+        },
+        "kernel": {
+          "keywords": [
+            "what is a kernel",
+            "operating system kernel",
+            "explain kernel"
+          ],
+          "response": "The kernel is the core part of an operating system responsible for managing resources such as CPU time, memory, devices, and system calls."
+        },
+        "linux": {
+          "keywords": [
+            "what is linux",
+            "linux operating system",
+            "explain linux"
+          ],
+          "response": "Linux is an open-source kernel used in many operating systems and distributions. Linux-based systems are widely used on servers, embedded devices, desktops, and other platforms."
+        }
+      }
+    },
+
+    "game_development": {
+      "title": "Game Development",
+      "aliases": [
+        "game development",
+        "game dev",
+        "gamedev",
+        "making games"
+      ],
+      "topics": {
+        "definition": {
+          "keywords": [
+            "what is game development",
+            "what is game dev",
+            "explain game development"
+          ],
+          "response": "Game development is the process of designing and building interactive games. It can involve programming, game design, art, animation, audio, physics, networking, and production."
+        },
+        "game_engine": {
+          "keywords": [
+            "what is a game engine",
+            "game engine",
+            "explain game engines"
+          ],
+          "response": "A game engine is software that provides reusable systems for building games, such as rendering, physics, input, audio, animation, scene management, and asset handling."
+        },
+        "physics": {
+          "keywords": [
+            "game physics",
+            "what is game physics",
+            "physics in games"
+          ],
+          "response": "Game physics simulates physical behavior such as movement, collision, gravity, forces, and constraints. Real-time games often use simplified models designed for performance."
+        },
+        "rendering": {
+          "keywords": [
+            "what is rendering",
+            "game rendering",
+            "graphics rendering"
+          ],
+          "response": "Rendering is the process of generating an image from scene data. Game rendering commonly involves geometry, materials, lighting, cameras, shaders, and rasterization or ray-based techniques."
+        }
+      }
+    },
+
+    "mathematics": {
+      "title": "Mathematics",
+      "aliases": [
+        "math",
+        "mathematics"
+      ],
+      "topics": {
+        "algorithm": {
+          "keywords": [
+            "mathematical algorithm",
+            "math algorithm",
+            "what is an algorithm"
+          ],
+          "response": "A mathematical algorithm is a finite procedure for solving a mathematical problem or computing a mathematical result."
+        },
+        "prime": {
+          "keywords": [
+            "what is a prime number",
+            "prime number",
+            "prime numbers"
+          ],
+          "response": "A prime number is an integer greater than 1 that has exactly two positive divisors: 1 and itself."
+        },
+        "probability": {
+          "keywords": [
+            "what is probability",
+            "probability definition",
+            "explain probability"
+          ],
+          "response": "Probability is a mathematical framework for describing uncertainty. It assigns values between 0 and 1 to events, where 0 represents impossibility and 1 represents certainty."
+        },
+        "binary": {
+          "keywords": [
+            "what is binary",
+            "binary numbers",
+            "explain binary"
+          ],
+          "response": "Binary is a base-2 number system that uses the digits 0 and 1. Computers use binary representations extensively because digital hardware can represent two stable logical states."
+        }
+      }
+    },
+
+    "computer_hardware": {
+      "title": "Computer Hardware",
+      "aliases": [
+        "hardware",
+        "computer hardware",
+        "pc hardware"
+      ],
+      "topics": {
+        "cpu": {
+          "keywords": [
+            "what is a cpu",
+            "what does cpu do",
+            "explain cpu",
+            "central processing unit"
+          ],
+          "response": "The CPU is the central processing unit of a computer. It executes instructions and performs operations required by software."
+        },
+        "gpu": {
+          "keywords": [
+            "what is a gpu",
+            "what does gpu do",
+            "explain gpu",
+            "graphics processing unit"
+          ],
+          "response": "A GPU is a processor designed to perform large numbers of parallel operations efficiently. GPUs are widely used for graphics, scientific computing, and machine learning."
+        },
+        "ram": {
+          "keywords": [
+            "what is ram",
+            "what does ram do",
+            "explain ram"
+          ],
+          "response": "RAM is volatile memory used to hold data and instructions that a computer is actively working with."
+        },
+        "storage": {
+          "keywords": [
+            "what is computer storage",
+            "what is storage",
+            "ssd vs hdd",
+            "computer storage"
+          ],
+          "response": "Computer storage holds data persistently. Common storage technologies include SSDs and hard disk drives."
+        }
+      }
     }
+  },
+
+  "fallbacks": [
+    "I do not have a rule for that yet.",
+    "I do not have enough knowledge for that question yet.",
+    "That is outside my current knowledge base.",
+    "I understand the input, but I do not have a matching response rule yet.",
+    "I need a more specific rule to answer that.",
+    "My knowledge base does not contain an answer for that yet."
+  ]
+  }
