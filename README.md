@@ -1,6 +1,6 @@
 # RuleMind AI
 
-RuleMind is a **rule-based conversational AI** designed to simulate intelligent behavior using a large collection of deterministic rules.
+[RuleMind](https://darky-github.github.io/rulemind-ai/) is a **rule-based conversational AI** designed to simulate intelligent behavior using a large collection of deterministic rules.
 
 The project focuses on handling real-world human input, including typos, slang, abbreviations, repeated letters, and different ways of expressing the same idea. For example, inputs such as "How are you?", "How r u?", and "Hawww r u?" can be normalized and interpreted as the same intent.
 
