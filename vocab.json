@@ -1,41 +1,198 @@
 {
   "words": [
-    "how",
-    "what",
-    "where",
-    "when",
-    "why",
-    "who",
-    "hello",
-    "hi",
-    "hey",
-    "good",
-    "morning",
-    "afternoon",
-    "evening",
-    "thanks",
-    "thank",
-    "please",
-    "help",
-    "you",
-    "your",
-    "are",
-    "can",
-    "do",
-    "doing",
-    "name",
+    "a",
     "about",
-    "great",
+    "able",
+    "actually",
+    "after",
+    "again",
+    "against",
+    "all",
+    "already",
+    "also",
+    "always",
+    "am",
+    "an",
+    "and",
+    "any",
+    "anything",
+    "are",
+    "around",
+    "as",
+    "ask",
+    "at",
     "awesome",
-    "fine",
-    "okay",
-    "yes",
-    "no",
-    "bye",
-    "goodbye",
+    "back",
+    "be",
+    "because",
+    "been",
+    "before",
+    "being",
+    "best",
+    "better",
+    "between",
+    "both",
+    "but",
+    "by",
+    "can",
+    "cannot",
+    "cant",
+    "change",
+    "chat",
+    "could",
+    "day",
+    "did",
+    "different",
+    "do",
+    "does",
+    "doing",
+    "dont",
+    "down",
+    "each",
+    "else",
+    "even",
+    "every",
+    "everything",
     "explain",
+    "feel",
+    "find",
+    "fine",
+    "first",
+    "for",
+    "from",
+    "fun",
+    "get",
+    "getting",
+    "give",
+    "go",
+    "going",
+    "good",
+    "got",
+    "great",
+    "greetings",
+    "had",
+    "has",
+    "have",
+    "having",
+    "he",
+    "hello",
+    "help",
+    "her",
+    "here",
+    "hey",
+    "hi",
+    "him",
+    "his",
+    "how",
+    "i",
+    "if",
+    "im",
+    "in",
+    "into",
+    "is",
+    "it",
+    "its",
+    "just",
+    "know",
+    "last",
+    "later",
+    "let",
+    "like",
+    "little",
+    "long",
+    "look",
+    "make",
+    "many",
+    "may",
+    "me",
+    "mean",
+    "might",
+    "more",
+    "most",
+    "much",
+    "my",
+    "name",
+    "need",
+    "never",
+    "new",
+    "next",
+    "nice",
+    "no",
+    "not",
+    "now",
+    "of",
+    "off",
+    "okay",
+    "old",
+    "on",
+    "once",
+    "one",
+    "only",
+    "or",
+    "other",
+    "our",
+    "out",
+    "over",
+    "please",
+    "really",
+    "right",
+    "same",
+    "say",
+    "see",
+    "should",
+    "show",
+    "so",
+    "some",
+    "something",
+    "sorry",
+    "still",
+    "sure",
+    "take",
     "tell",
-    "show"
+    "thank",
+    "thanks",
+    "than",
+    "that",
+    "the",
+    "their",
+    "them",
+    "then",
+    "there",
+    "these",
+    "they",
+    "thing",
+    "think",
+    "this",
+    "those",
+    "time",
+    "to",
+    "today",
+    "too",
+    "try",
+    "understand",
+    "up",
+    "us",
+    "use",
+    "very",
+    "want",
+    "was",
+    "way",
+    "we",
+    "well",
+    "were",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who",
+    "why",
+    "will",
+    "with",
+    "would",
+    "yeah",
+    "yes",
+    "you",
+    "your"
   ],
 
   "slang": {
@@ -44,64 +201,223 @@
     "urs": "yours",
     "r": "are",
     "ya": "you",
-    "yr": "your",
+    "yall": "you all",
+    "yep": "yes",
+    "yup": "yes",
+    "yea": "yes",
+    "yeah": "yes",
+    "nah": "no",
+    "nope": "no",
+    "k": "okay",
+    "kk": "okay",
+    "ok": "okay",
+    "oki": "okay",
+    "okie": "okay",
     "pls": "please",
     "plz": "please",
+    "plss": "please",
     "thx": "thanks",
-    "tx": "thanks",
+    "tnx": "thanks",
     "ty": "thank you",
+    "tysm": "thank you so much",
     "np": "no problem",
-    "yw": "you're welcome",
+    "yw": "you are welcome",
+    "wb": "welcome back",
+    "gm": "good morning",
+    "gn": "good night",
+    "hru": "how are you",
+    "hrud": "how are you doing",
+    "wyd": "what are you doing",
+    "wbu": "what about you",
+    "hbu": "how about you",
     "idk": "i don't know",
+    "idc": "i don't care",
     "imo": "in my opinion",
     "imho": "in my humble opinion",
+    "tbh": "to be honest",
+    "ngl": "not going to lie",
     "btw": "by the way",
-    "omg": "oh my god",
-    "lol": "laughing",
-    "lmao": "laughing",
-    "hbu": "how about you",
-    "wbu": "what about you",
-    "sup": "what is up",
-    "wassup": "what is up",
-    "cya": "see you",
     "brb": "be right back",
-    "afk": "away from keyboard"
+    "afk": "away from keyboard",
+    "irl": "in real life",
+    "fr": "for real",
+    "rn": "right now",
+    "asap": "as soon as possible",
+    "bc": "because",
+    "bcz": "because",
+    "cuz": "because",
+    "coz": "because",
+    "cos": "because",
+    "tho": "though",
+    "thru": "through",
+    "gonna": "going to",
+    "wanna": "want to",
+    "gotta": "got to",
+    "lemme": "let me",
+    "gimme": "give me",
+    "kinda": "kind of",
+    "sorta": "sort of",
+    "dunno": "do not know",
+    "doin": "doing",
+    "goin": "going",
+    "comin": "coming",
+    "lookin": "looking",
+    "talkin": "talking",
+    "tryin": "trying"
   },
 
   "aliases": {
+    "hiya": "hello",
     "howdy": "hello",
-    "hiya": "hi",
-    "heya": "hey",
-    "greetings": "hello"
+    "sup": "hello",
+    "wassup": "hello",
+    "whatsup": "hello",
+    "what's up": "hello",
+    "how is it going": "how are you",
+    "how's it going": "how are you",
+    "hows it going": "how are you",
+    "how have you been": "how are you",
+    "how are things": "how are you",
+    "how are things going": "how are you",
+    "you good": "how are you",
+    "you okay": "how are you",
+    "everything good": "how are you",
+    "everything okay": "how are you",
+    "what can you do": "capabilities",
+    "what do you do": "capabilities",
+    "what are your capabilities": "capabilities",
+    "what are you capable of": "capabilities",
+    "what can i ask you": "capabilities",
+    "tell me about yourself": "about",
+    "who are you": "identity",
+    "what are you": "identity",
+    "what is your name": "identity",
+    "whats your name": "identity",
+    "what's your name": "identity",
+    "introduce yourself": "identity",
+    "help me": "help",
+    "i need help": "help",
+    "can you help me": "help",
+    "could you help me": "help",
+    "thanks a lot": "thanks",
+    "thank you so much": "thanks",
+    "much appreciated": "thanks",
+    "i appreciate it": "thanks",
+    "see ya": "goodbye",
+    "see you": "goodbye",
+    "see you later": "goodbye",
+    "talk to you later": "goodbye",
+    "catch you later": "goodbye",
+    "have a good night": "good night",
+    "have a nice day": "goodbye"
   },
 
   "typos": {
+    "helo": "hello",
+    "helllo": "hello",
+    "hellooo": "hello",
+    "hllo": "hello",
+    "hlelo": "hello",
+    "heelo": "hello",
+    "hii": "hi",
+    "hiii": "hi",
+    "hhey": "hey",
+    "heyy": "hey",
+    "heyyy": "hey",
+    "gud": "good",
+    "goood": "good",
+    "gooodd": "good",
+    "godo": "good",
+    "god": "good",
+    "mornig": "morning",
+    "morining": "morning",
+    "morniing": "morning",
+    "afternon": "afternoon",
+    "afteroon": "afternoon",
+    "evenig": "evening",
+    "eveing": "evening",
+    "nigth": "night",
+    "niight": "night",
+    "nigt": "night",
     "haw": "how",
     "hwo": "how",
+    "hoow": "how",
+    "howw": "how",
+    "howww": "how",
+    "whow": "how",
+    "aree": "are",
+    "aer": "are",
+    "rae": "are",
+    "rre": "are",
+    "yuo": "you",
+    "oyu": "you",
+    "yuo": "you",
+    "yu": "you",
+    "yoou": "you",
+    "youu": "you",
+    "youuu": "you",
+    "doign": "doing",
+    "doingg": "doing",
+    "doiin": "doing",
+    "diong": "doing",
     "whatt": "what",
     "whta": "what",
     "waht": "what",
-    "yuo": "you",
-    "yoou": "you",
-    "yu": "you",
-    "aree": "are",
-    "helo": "hello",
-    "helllo": "hello",
-    "heyy": "hey",
-    "hii": "hi",
-    "hiii": "hi",
+    "whaat": "what",
+    "whre": "where",
+    "wher": "where",
+    "whrer": "where",
+    "when": "when",
+    "wheen": "when",
+    "whne": "when",
+    "wwhy": "why",
+    "why": "why",
     "thnaks": "thanks",
     "tahnks": "thanks",
-    "thanx": "thanks",
-    "pleaze": "please",
+    "thankss": "thanks",
+    "thansk": "thanks",
+    "thanls": "thanks",
     "pleas": "please",
-    "goood": "good",
-    "mornng": "morning",
-    "mornin": "morning",
-    "afternon": "afternoon",
-    "evning": "evening",
-    "gud": "good",
-    "godo": "good"
+    "plese": "please",
+    "pleae": "please",
+    "plesee": "please",
+    "becaus": "because",
+    "becuase": "because",
+    "beacuse": "because",
+    "becouse": "because",
+    "becasue": "because",
+    "explainn": "explain",
+    "exaplin": "explain",
+    "expalin": "explain",
+    "teh": "the",
+    "hte": "the",
+    "taht": "that",
+    "thta": "that",
+    "thiss": "this",
+    "thsi": "this",
+    "ths": "this",
+    "thats": "that",
+    "somthing": "something",
+    "somethng": "something",
+    "somethin": "something",
+    "everyting": "everything",
+    "evrything": "everything",
+    "evry": "every",
+    "realy": "really",
+    "reallly": "really",
+    "rly": "really",
+    "becuase": "because",
+    "definately": "definitely",
+    "definatly": "definitely",
+    "definetly": "definitely",
+    "recieve": "receive",
+    "recive": "receive",
+    "seperate": "separate",
+    "occured": "occurred",
+    "untill": "until",
+    "tommorow": "tomorrow",
+    "tomorow": "tomorrow",
+    "yesturday": "yesterday"
   },
 
   "intents": [
@@ -112,151 +428,209 @@
         ["hello"],
         ["hi"],
         ["hey"],
+        ["greetings"],
         ["good", "morning"],
         ["good", "afternoon"],
         ["good", "evening"],
-        ["hello", "there"],
-        ["hey", "there"]
+        ["howdy"]
       ],
       "responses": [
-        "Hello! 👋",
-        "Hey! How can I help?",
-        "Hi! What's up?",
-        "Hello there!",
-        "Hey! Good to see you."
+        "Hello.",
+        "Hi. How can I help?",
+        "Hey. What can I do for you?",
+        "Hello there."
       ]
     },
 
     {
       "id": "GREETING_STATUS",
-      "priority": 20,
+      "priority": 30,
       "patterns": [
         ["how", "are", "you"],
         ["how", "are", "you", "doing"],
         ["how", "have", "you", "been"],
         ["how", "is", "it", "going"],
         ["how", "are", "things"],
-        ["how", "are", "you", "doing", "today"]
+        ["how", "are", "things", "going"],
+        ["how", "are", "you", "today"],
+        ["you", "good"],
+        ["you", "okay"],
+        ["everything", "good"],
+        ["everything", "okay"]
       ],
       "responses": [
-        "I'm doing well! Ready to help. 🧠",
-        "Operating normally and ready for your next command.",
-        "All systems are running smoothly. 😎",
-        "I'm doing great. What shall we work on?",
-        "Doing well! My rule engine is online."
+        "I'm doing well. What can I help you with?",
+        "I'm doing great. What are we working on?",
+        "Everything is running normally.",
+        "I'm good. Ready for your next question."
       ]
     },
 
     {
-      "id": "THANKS",
-      "priority": 15,
+      "id": "GOOD_MORNING",
+      "priority": 20,
       "patterns": [
-        ["thanks"],
-        ["thank", "you"],
-        ["thanks", "a", "lot"],
-        ["thank", "you", "very", "much"],
-        ["much", "appreciated"]
+        ["good", "morning"],
+        ["morning"]
       ],
       "responses": [
-        "You're welcome! 👍",
-        "No problem!",
-        "Anytime!",
-        "Glad I could help.",
-        "You're welcome."
+        "Good morning.",
+        "Good morning. How can I help?",
+        "Morning. What are we working on?"
       ]
     },
 
     {
-      "id": "GOODBYE",
-      "priority": 10,
+      "id": "GOOD_AFTERNOON",
+      "priority": 20,
+      "patterns": [
+        ["good", "afternoon"],
+        ["afternoon"]
+      ],
+      "responses": [
+        "Good afternoon.",
+        "Good afternoon. How can I help?"
+      ]
+    },
+
+    {
+      "id": "GOOD_EVENING",
+      "priority": 20,
+      "patterns": [
+        ["good", "evening"],
+        ["evening"]
+      ],
+      "responses": [
+        "Good evening.",
+        "Good evening. What can I help you with?"
+      ]
+    },
+
+    {
+      "id": "GOOD_NIGHT",
+      "priority": 20,
+      "patterns": [
+        ["good", "night"],
+        ["night"]
+      ],
+      "responses": [
+        "Good night.",
+        "Have a good night.",
+        "Good night. See you later."
+      ]
+    },
+
+    {
+      "id": "FAREWELL",
+      "priority": 15,
       "patterns": [
         ["bye"],
         ["goodbye"],
         ["see", "you"],
         ["see", "you", "later"],
-        ["talk", "to", "you", "later"]
+        ["talk", "to", "you", "later"],
+        ["catch", "you", "later"]
       ],
       "responses": [
-        "See you later! 👋",
-        "Goodbye!",
-        "Catch you later.",
-        "Until next time!"
+        "Goodbye.",
+        "See you later.",
+        "Take care.",
+        "Until next time."
+      ]
+    },
+
+    {
+      "id": "THANKS",
+      "priority": 25,
+      "patterns": [
+        ["thanks"],
+        ["thank", "you"],
+        ["thank", "you", "so", "much"],
+        ["thanks", "a", "lot"],
+        ["much", "appreciated"],
+        ["i", "appreciate", "it"]
+      ],
+      "responses": [
+        "You're welcome.",
+        "No problem.",
+        "Anytime.",
+        "Glad I could help."
       ]
     },
 
     {
       "id": "IDENTITY",
-      "priority": 20,
+      "priority": 25,
       "patterns": [
         ["who", "are", "you"],
         ["what", "are", "you"],
         ["what", "is", "your", "name"],
-        ["your", "name"]
+        ["what", "is", "your", "identity"],
+        ["introduce", "yourself"]
       ],
       "responses": [
         "I'm RuleMind, a rule-based conversational AI.",
-        "I'm RuleMind — intelligence built from rules.",
-        "My name is RuleMind. I operate using deterministic rules and structured knowledge."
+        "I'm RuleMind. I process language using rules, vocabulary, normalization, and context.",
+        "I'm RuleMind, a deterministic conversational engine."
       ]
     },
 
     {
       "id": "CAPABILITIES",
-      "priority": 20,
+      "priority": 25,
       "patterns": [
         ["what", "can", "you", "do"],
         ["what", "do", "you", "do"],
         ["what", "are", "your", "capabilities"],
-        ["what", "can", "you", "help", "with"],
-        ["tell", "me", "what", "you", "can", "do"]
+        ["what", "are", "you", "capable", "of"],
+        ["what", "can", "i", "ask", "you"]
       ],
       "responses": [
-        "I can normalize messy text, detect intent, correct common mistakes, use conversation context, and respond using rules.",
-        "I'm a deterministic rule-based AI. My knowledge comes from structured vocabulary, patterns, rules, and responses.",
-        "I process language through normalization, fuzzy matching, intent detection, scoring, context, and response rules."
+        "I can process conversational input, normalize slang and typos, detect intents, apply rules, maintain basic context, and respond using the loaded knowledge base.",
+        "My behavior is driven by rules and data. I can recognize patterns, normalize different forms of language, and select responses based on detected intent."
       ]
     },
 
     {
       "id": "HELP",
-      "priority": 10,
+      "priority": 25,
       "patterns": [
         ["help"],
         ["help", "me"],
         ["i", "need", "help"],
         ["can", "you", "help", "me"],
-        ["i", "need", "some", "help"]
+        ["could", "you", "help", "me"]
       ],
       "responses": [
-        "Sure. Tell me what you're trying to accomplish.",
-        "I'm listening. What's the problem?",
-        "Absolutely. Describe what you need help with."
+        "Sure. Tell me what you need help with.",
+        "What do you need help with?",
+        "Describe the problem and I'll see which rules apply."
       ]
     },
 
     {
       "id": "POSITIVE",
-      "priority": 5,
+      "priority": 10,
       "patterns": [
         ["good"],
         ["great"],
         ["awesome"],
         ["nice"],
         ["cool"],
-        ["perfect"],
-        ["excellent"]
+        ["excellent"],
+        ["perfect"]
       ],
       "responses": [
-        "Nice! 😎",
-        "Awesome.",
-        "Great!",
-        "Glad to hear it."
+        "Good to hear.",
+        "Sounds good.",
+        "Nice.",
+        "Great."
       ]
     },
 
     {
       "id": "NEGATIVE",
-      "priority": 5,
+      "priority": 10,
       "patterns": [
         ["bad"],
         ["terrible"],
@@ -266,129 +640,236 @@
       ],
       "responses": [
         "That doesn't sound ideal.",
-        "I understand. What happened?",
-        "Let's see if we can figure it out."
+        "I understand.",
+        "Let's see if we can work through it."
       ]
     },
 
     {
-      "id": "YES",
-      "priority": 5,
+      "id": "AGREEMENT",
+      "priority": 12,
       "patterns": [
         ["yes"],
         ["yeah"],
         ["yep"],
-        ["sure"],
-        ["okay"],
-        ["ok"]
+        ["yup"],
+        ["correct"],
+        ["exactly"],
+        ["right"],
+        ["sure"]
       ],
       "responses": [
-        "Alright.",
-        "Got it.",
+        "Understood.",
         "Okay.",
-        "Understood."
+        "Got it.",
+        "Makes sense."
       ]
     },
 
     {
-      "id": "NO",
-      "priority": 5,
+      "id": "DISAGREEMENT",
+      "priority": 12,
       "patterns": [
         ["no"],
         ["nope"],
         ["nah"],
-        ["not", "really"]
+        ["not", "really"],
+        ["that's", "wrong"],
+        ["you", "are", "wrong"]
       ],
       "responses": [
-        "Alright.",
         "Understood.",
-        "Okay, noted."
+        "Okay. I'll reconsider the input.",
+        "Got it."
       ]
     },
 
     {
-      "id": "EXPLANATION",
-      "priority": 10,
+      "id": "CONFUSION",
+      "priority": 20,
       "patterns": [
-        ["explain"],
-        ["explain", "this"],
-        ["explain", "that"],
-        ["tell", "me", "more"],
-        ["how", "does", "this", "work"]
+        ["i", "don't", "understand"],
+        ["i", "do", "not", "understand"],
+        ["what", "does", "that", "mean"],
+        ["what", "do", "you", "mean"],
+        ["i", "am", "confused"],
+        ["im", "confused"]
       ],
       "responses": [
-        "Sure. Give me the specific topic and I'll break it down.",
-        "I can explain it step by step. What topic are you asking about?",
-        "Let's break it down."
+        "I can explain it differently.",
+        "Let me break it down.",
+        "Tell me which part is unclear."
       ]
     },
 
     {
-      "id": "QUESTION_WHAT",
-      "priority": 3,
+      "id": "REPEAT",
+      "priority": 20,
       "patterns": [
-        ["what"],
-        ["what", "is"],
-        ["what", "are"]
+        ["say", "that", "again"],
+        ["repeat", "that"],
+        ["can", "you", "repeat"],
+        ["what", "did", "you", "say"],
+        ["say", "it", "again"]
       ],
       "responses": [
-        "That's a 'what' question. Give me the subject and I'll try to match it to my knowledge.",
-        "What would you like to know?"
+        "Sure. I'll repeat that.",
+        "Of course. I'll explain it again.",
+        "Sure. Let me restate it."
+      ]
+    },
+
+    {
+      "id": "ABOUT",
+      "priority": 20,
+      "patterns": [
+        ["tell", "me", "about", "yourself"],
+        ["about", "yourself"],
+        ["tell", "me", "about", "you"]
+      ],
+      "responses": [
+        "I'm RuleMind, a rule-based conversational system. My behavior comes from structured vocabulary, normalization, intent rules, and response selection.",
+        "RuleMind is designed to create complex conversational behavior from deterministic rules and data."
+      ]
+    },
+
+    {
+      "id": "COMPLIMENT",
+      "priority": 15,
+      "patterns": [
+        ["you", "are", "smart"],
+        ["you", "are", "good"],
+        ["you", "are", "awesome"],
+        ["you", "are", "great"],
+        ["nice", "ai"],
+        ["good", "job"]
+      ],
+      "responses": [
+        "Thanks.",
+        "I appreciate that.",
+        "Glad the system worked."
+      ]
+    },
+
+    {
+      "id": "SORRY",
+      "priority": 15,
+      "patterns": [
+        ["sorry"],
+        ["i", "am", "sorry"],
+        ["my", "bad"],
+        ["my", "mistake"]
+      ],
+      "responses": [
+        "No problem.",
+        "It's okay.",
+        "No worries."
       ]
     },
 
     {
       "id": "QUESTION_WHY",
-      "priority": 3,
+      "priority": 12,
       "patterns": [
         ["why"],
-        ["why", "is"],
-        ["why", "are"],
-        ["why", "do"],
-        ["why", "does"]
+        ["why", "is", "that"],
+        ["why", "does", "that", "happen"],
+        ["why", "did", "that", "happen"]
       ],
       "responses": [
-        "That's a 'why' question. What's the specific situation?",
-        "Let's examine the reason behind it."
+        "That depends on the context. Give me a little more information.",
+        "I need more context to determine why.",
+        "Tell me what you're referring to and I'll analyze it."
       ]
     },
 
     {
-      "id": "QUESTION_WHERE",
-      "priority": 3,
+      "id": "QUESTION_WHAT",
+      "priority": 10,
       "patterns": [
-        ["where"],
-        ["where", "is"],
-        ["where", "are"],
-        ["where", "can", "i"]
+        ["what"],
+        ["what", "is", "that"],
+        ["what", "is", "this"],
+        ["what", "does", "that", "mean"]
       ],
       "responses": [
-        "What location are you asking about?",
-        "Give me the thing or place you're looking for."
+        "Tell me what you're referring to and I'll explain it.",
+        "I can help explain that. Give me the specific topic."
       ]
     },
 
     {
-      "id": "QUESTION_WHEN",
-      "priority": 3,
+      "id": "QUESTION_HOW",
+      "priority": 10,
       "patterns": [
-        ["when"],
-        ["when", "is"],
-        ["when", "are"],
-        ["when", "will"]
+        ["how"],
+        ["how", "does", "that", "work"],
+        ["how", "do", "i", "do", "that"],
+        ["how", "can", "i", "do", "that"]
       ],
       "responses": [
-        "What event or situation are you asking about?",
-        "Tell me what you're trying to determine the timing of."
+        "Tell me what you're trying to accomplish and I'll break it down.",
+        "Give me the task and I'll explain the steps."
+      ]
+    },
+
+    {
+      "id": "CAPABILITY_PROGRAMMING",
+      "priority": 20,
+      "patterns": [
+        ["can", "you", "code"],
+        ["can", "you", "program"],
+        ["can", "you", "write", "code"],
+        ["do", "you", "know", "programming"],
+        ["do", "you", "know", "javascript"],
+        ["do", "you", "know", "python"]
+      ],
+      "responses": [
+        "I can reason about programming concepts when the required knowledge is represented in my rules.",
+        "Programming-related behavior can be added to my knowledge base using rules and vocabulary."
+      ]
+    },
+
+    {
+      "id": "POSITIVE_FEEDBACK",
+      "priority": 18,
+      "patterns": [
+        ["that", "works"],
+        ["it", "works"],
+        ["works", "great"],
+        ["that", "worked"],
+        ["it", "worked"],
+        ["fixed", "it"]
+      ],
+      "responses": [
+        "Good.",
+        "Great. That means the rule matched correctly.",
+        "Excellent. We can build on that."
+      ]
+    },
+
+    {
+      "id": "UNKNOWN_SPECIFIC",
+      "priority": 1,
+      "patterns": [
+        ["i", "dont", "know"],
+        ["i", "do", "not", "know"]
+      ],
+      "responses": [
+        "That's okay.",
+        "No problem.",
+        "We can work it out."
       ]
     }
   ],
 
   "fallbacks": [
     "I don't have a rule for that yet.",
-    "Interesting. I don't have a matching rule for that.",
-    "My current knowledge doesn't contain a strong rule for that.",
-    "That's outside my current rule set.",
-    "I couldn't confidently classify that input."
+    "I don't recognize that input yet.",
+    "That isn't covered by my current knowledge base.",
+    "I need another rule to handle that.",
+    "I understand some of the input, but I don't have a matching intent.",
+    "I don't have enough information to determine the correct response.",
+    "That falls outside my current rule set."
   ]
-}
+          }
