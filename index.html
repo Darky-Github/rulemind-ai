@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>RuleMind AI</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#080b10;color:#edf2f7;height:100vh;overflow:hidden}
+.app{height:100vh;display:flex}
+.sidebar{width:275px;background:#0e131a;border-right:1px solid #1d2630;padding:20px 15px;display:flex;flex-direction:column}
+.logo{display:flex;align-items:center;gap:11px;padding:4px 10px 25px}
+.logo-icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#6c63ff,#a35cff);font-weight:900;font-size:19px;box-shadow:0 8px 25px #6c63ff22}
+.logo h1{font-size:18px}
+.logo span{display:block;color:#667381;font-size:10px;margin-top:3px}
+.section-title{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;color:#56616d;margin:17px 10px 8px}
+.nav-item{padding:11px 12px;border-radius:9px;color:#8d99a6;font-size:13px;margin-bottom:3px;cursor:pointer}
+.nav-item:hover,.nav-item.active{background:#171e27;color:#fff}
+.stats{margin-top:auto;border:1px solid #202a35;background:#121820;border-radius:12px;padding:13px}
+.stat{display:flex;justify-content:space-between;font-size:11px;margin:8px 0}
+.stat span:first-child{color:#66727f}
+.stat span:last-child{font-family:monospace;color:#d4dbe3}
+.main{flex:1;display:flex;flex-direction:column;min-width:0}
+.topbar{height:63px;border-bottom:1px solid #1d2630;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
+.top-title{font-size:14px;font-weight:650}
+.status{display:flex;align-items:center;gap:7px;color:#697582;font-size:11px}
+.dot{width:7px;height:7px;border-radius:50%;background:#55d878;box-shadow:0 0 9px #55d878}
+.chat{flex:1;overflow-y:auto;padding:30px max(18px,calc((100% - 900px)/2))}
+.welcome{text-align:center;max-width:650px;margin:65px auto 40px}
+.welcome-icon{width:68px;height:68px;border-radius:20px;display:grid;place-items:center;margin:auto;background:linear-gradient(135deg,#6c63ff,#a35cff);font-size:29px;box-shadow:0 18px 50px #6c63ff22}
+.welcome h2{font-size:28px;margin-top:20px}
+.welcome p{color:#6f7c89;font-size:13px;line-height:1.7;margin-top:9px}
+.examples{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;margin-top:22px}
+.example{padding:8px 11px;border:1px solid #242e39;background:#11171e;border-radius:8px;color:#909ba7;font-size:11px;cursor:pointer}
+.example:hover{border-color:#6c63ff;color:#fff}
+.message{display:flex;gap:11px;margin:22px 0;animation:appear .2s ease}
+@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.avatar{width:34px;height:34px;min-width:34px;border-radius:9px;display:grid;place-items:center;font-size:12px;font-weight:800}
+.user-avatar{background:#242d37}
+.ai-avatar{background:linear-gradient(135deg,#6c63ff,#a35cff)}
+.message-content{max-width:750px;font-size:14px;line-height:1.65}
+.message-role{font-size:10px;color:#586572;margin-bottom:3px}
+.bubble{white-space:pre-wrap}
+.analysis{margin-top:9px;border:1px solid #202a34;background:#0e1319;border-radius:8px;padding:9px 11px;color:#65727f;font:10px/1.7 monospace}
+.analysis strong{color:#8b97a4}
+.input-area{padding:14px max(18px,calc((100% - 900px)/2)) 18px;border-top:1px solid #1d2630}
+.input-box{display:flex;align-items:flex-end;gap:9px;background:#121820;border:1px solid #28333e;border-radius:13px;padding:9px;transition:.2s}
+.input-box:focus-within{border-color:#6c63ff;box-shadow:0 0 0 3px #6c63ff0d}
+textarea{flex:1;resize:none;min-height:25px;max-height:140px;background:transparent;border:0;outline:0;color:#fff;font:14px/1.5 inherit}
+textarea::placeholder{color:#515e6b}
+.send{width:38px;height:38px;border-radius:9px;background:#6c63ff;color:#fff;font-size:15px;cursor:pointer}
+.send:hover{background:#7c74ff}
+.hint{text-align:center;color:#46515c;font-size:9px;margin-top:7px}
+.loading{display:flex;gap:4px;padding:8px 0}
+.loading span{width:5px;height:5px;border-radius:50%;background:#6c63ff;animation:bounce .8s infinite}
+.loading span:nth-child(2){animation-delay:.15s}
+.loading span:nth-child(3){animation-delay:.3s}
+@keyframes bounce{0%,100%{transform:translateY(0);opacity:.4}50%{transform:translateY(-4px);opacity:1}}
+@media(max-width:700px){.sidebar{display:none}.chat{padding:18px 13px}.input-area{padding:11px 13px 15px}.welcome{margin-top:35px}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="logo">
+<div class="logo-icon">R</div>
+<div>
+<h1>RuleMind</h1>
+<span>Rule-Based Intelligence</span>
+</div>
+</div>
+
+<div class="section-title">Engine</div>
+<div class="nav-item active">💬 Chat</div>
+<div class="nav-item">🧠 Rules</div>
+<div class="nav-item">🔤 Normalization</div>
+<div class="nav-item">🎯 Intents</div>
+<div class="nav-item">📚 Vocabulary</div>
+<div class="nav-item">🧩 Context</div>
+
+<div class="stats">
+<div class="section-title" style="margin:0 0 10px">Live Engine</div>
+<div class="stat"><span>Rules</span><span id="ruleCount">0</span></div>
+<div class="stat"><span>Vocabulary</span><span id="vocabCount">0</span></div>
+<div class="stat"><span>Messages</span><span id="messageCount">0</span></div>
+<div class="stat"><span>Corrections</span><span id="correctionCount">0</span></div>
+<div class="stat"><span>Engine</span><span id="engineState">Loading</span></div>
+</div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+<div class="top-title">RuleMind AI</div>
+<div class="status"><div class="dot"></div><span id="statusText">Loading knowledge</span></div>
+</header>
+
+<section class="chat" id="chat">
+<div class="welcome" id="welcome">
+<div class="welcome-icon">🧠</div>
+<h2>Rule-based intelligence.</h2>
+<p>Messy language goes in. Normalized language, intent detection, rules, context and response selection come out.</p>
+<div class="examples">
+<div class="example" onclick="useExample('How are you?')">How are you?</div>
+<div class="example" onclick="useExample('How r u?')">How r u?</div>
+<div class="example" onclick="useExample('Hawww r u doinggg?')">Hawww r u doinggg?</div>
+<div class="example" onclick="useExample('thx bro')">thx bro</div>
+<div class="example" onclick="useExample('what can you do?')">what can you do?</div>
+<div class="example" onclick="useExample('what is 25 * 4?')">25 * 4</div>
+</div>
+</div>
+</section>
+
+<div class="input-area">
+<div class="input-box">
+<textarea id="input" rows="1" placeholder="Talk to RuleMind..." onkeydown="handleKey(event)"></textarea>
+<button class="send" onclick="sendMessage()">➤</button>
+</div>
+<div class="hint">Deterministic • data-driven • no external AI API</div>
+</div>
+</main>
+</div>
+
+<script>
+let DATA=null
+
+const state={
+messages:0,
+corrections:0,
+lastIntent:null,
+lastInput:null,
+variables:{}
+}
+
+const BUILTIN_WORDS=[
+"how","what","where","when","why","who","are","you","hello","hi","hey",
+"thanks","thank","please","help","can","do","good","morning","afternoon",
+"evening","bye","goodbye","your","name","is","it","going","about","me",
+"yes","no","okay","ok","awesome","great","sorry","because","tell","explain"
+]
+
+async function loadData(){
+try{
+const response=await fetch("vocab.json",{cache:"no-store"})
+if(!response.ok)throw new Error("vocab.json not found")
+DATA=await response.json()
+document.getElementById("statusText").textContent="Engine Online"
+document.getElementById("engineState").textContent="Online"
+updateStats()
+}catch(error){
+DATA={
+slang:{},
+typos:{},
+aliases:{},
+words:[],
+intents:[]
+}
+document.getElementById("statusText").textContent="Knowledge Missing"
+document.getElementById("engineState").textContent="Error"
+}
+}
+
+function normalizeBasic(text){
+return text
+.toLowerCase()
+.replace(/[\u2018\u2019]/g,"'")
+.replace(/[\u201C\u201D]/g,'"')
+.replace(/([!?.,;:()[\]{}"'`])/g," ")
+.replace(/\s+/g," ")
+.trim()
+}
+
+function reduceRepeatedLetters(word){
+if(word.length<3)return word
+return word.replace(/(.)\1{2,}/g,"$1$1")
+}
+
+function levenshtein(a,b){
+const matrix=Array.from({length:b.length+1},()=>Array(a.length+1).fill(0))
+for(let i=0;i<=b.length;i++)matrix[i][0]=i
+for(let j=0;j<=a.length;j++)matrix[0][j]=j
+for(let i=1;i<=b.length;i++){
+for(let j=1;j<=a.length;j++){
+matrix[i][j]=b[i-1]===a[j-1]
+?matrix[i-1][j-1]
+:Math.min(
+matrix[i-1][j-1]+1,
+matrix[i][j-1]+1,
+matrix[i-1][j]+1
+)
+}
+}
+return matrix[b.length][a.length]
+}
+
+function similarity(a,b){
+const max=Math.max(a.length,b.length)
+if(!max)return 1
+return 1-levenshtein(a,b)/max
+}
+
+function expandPhrase(text,map){
+let result=text
+const entries=Object.entries(map||{}).sort((a,b)=>b[0].length-a[0].length)
+for(const [from,to] of entries){
+const pattern=new RegExp(`(^|\\s)${escapeRegex(from)}(?=\\s|$)`,"gi")
+result=result.replace(pattern,`$1${to}`)
+}
+return result
+}
+
+function escapeRegex(value){
+return value.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")
+}
+
+function correctWord(word,context){
+const direct=DATA.typos?.[word]||DATA.aliases?.[word]
+if(direct){
+state.corrections++
+return direct
+}
+
+const vocabulary=[
+...new Set([
+...BUILTIN_WORDS,
+...(DATA.words||[]),
+...Object.keys(DATA.typos||{}),
+...Object.keys(DATA.slang||{})
+])
+]
+
+if(word.length<3)return word
+
+let best=word
+let bestScore=0
+
+for(const candidate of vocabulary){
+if(Math.abs(candidate.length-word.length)>2)continue
+const score=similarity(word,candidate)
+if(score>bestScore){
+bestScore=score
+best=candidate
+}
+}
+
+const threshold=word.length<=4?.78:word.length<=7?.72:.68
+
+if(best!==word&&bestScore>=threshold){
+state.corrections++
+return best
+}
+
+return word
+}
+
+function normalizeInput(input){
+let text=normalizeBasic(input)
+text=expandPhrase(text,DATA.slang)
+text=expandPhrase(text,DATA.aliases)
+
+let tokens=text
+.split(/\s+/)
+.filter(Boolean)
+.map(reduceRepeatedLetters)
+
+tokens=tokens.flatMap(token=>{
+const replacement=DATA.slang?.[token]
+return replacement?replacement.split(/\s+/):[token]
+})
+
+tokens=tokens.map(word=>correctWord(word,tokens))
+
+const cleaned=[]
+for(const word of tokens){
+if(word==="a"&&cleaned.at(-1)==="a")continue
+cleaned.push(word)
+}
+
+return{
+original:input,
+tokens:cleaned,
+text:cleaned.join(" ")
+}
+}
+
+function patternScore(tokens,pattern){
+if(typeof pattern==="string")pattern=pattern.split(/\s+/)
+
+if(pattern.length===0)return 0
+
+let best=0
+
+for(let i=0;i<=tokens.length-pattern.length;i++){
+let score=0
+for(let j=0;j<pattern.length;j++){
+const token=tokens[i+j]
+const target=pattern[j]
+
+if(token===target){
+score+=1
+}else{
+const sim=similarity(token,target)
+if(sim>=.82)score+=sim*.75
+}
+}
+best=Math.max(best,score/pattern.length)
+}
+
+if(pattern.length===tokens.length&&best===1)best=1.12
+
+return best
+}
+
+function containsAny(tokens,words){
+return words.some(word=>tokens.includes(word))
+}
+
+function detectIntent(normalized){
+if(!DATA?.intents?.length)return{
+intent:"UNKNOWN",
+confidence:0,
+rule:null
+}
+
+let results=[]
+
+for(const rule of DATA.intents){
+let bestPatternScore=0
+
+for(const pattern of rule.patterns||[]){
+const score=patternScore(normalized.tokens,pattern)
+bestPatternScore=Math.max(bestPatternScore,score)
+}
+
+if(bestPatternScore>0){
+let score=bestPatternScore*100
+
+if(rule.required){
+const satisfied=rule.required.every(word=>normalized.tokens.includes(word))
+if(!satisfied)score*=.35
+}
+
+if(rule.forbidden&&containsAny(normalized.tokens,rule.forbidden)){
+score*=.25
+}
+
+if(rule.priority){
+score+=rule.priority
+}
+
+results.push({
+rule,
+score,
+intent:rule.id
+})
+}
+}
+
+results.sort((a,b)=>b.score-a.score)
+
+if(!results.length)return{
+intent:"UNKNOWN",
+confidence:0,
+rule:null
+}
+
+const best=results[0]
+
+return{
+intent:best.intent,
+confidence:Math.min(100,Math.round(best.score)),
+rule:best.rule,
+alternatives:results.slice(1,4).map(x=>({
+intent:x.intent,
+confidence:Math.min(100,Math.round(x.score))
+}))
+}
+}
+
+function getRandom(array){
+if(!array?.length)return""
+return array[Math.floor(Math.random()*array.length)]
+}
+
+function calculateExpression(text){
+const expression=text
+.replace(/what is/gi,"")
+.replace(/calculate/gi,"")
+.replace(/compute/gi,"")
+.replace(/equals/gi,"")
+.trim()
+
+if(!/^[0-9+\-*/%().\s]+$/.test(expression))return null
+
+try{
+const result=Function(`"use strict";return (${expression})`)()
+if(typeof result==="number"&&Number.isFinite(result))return result
+}catch{}
+return null
+}
+
+function dynamicRules(normalized){
+const text=normalized.text
+
+const arithmetic=calculateExpression(text)
+if(arithmetic!==null){
+return{
+intent:"CALCULATION",
+confidence:99,
+response:`The answer is ${arithmetic}.`
+}
+}
+
+if(/\btime\b/.test(text)){
+return{
+intent:"TIME",
+confidence:96,
+response:`Your local time is ${new Date().toLocaleTimeString([],{
+hour:"2-digit",
+minute:"2-digit"
+})}.`
+}
+}
+
+if(/\b(date|day|today)\b/.test(text)){
+return{
+intent:"DATE",
+confidence:96,
+response:`Today is ${new Date().toLocaleDateString([],{
+weekday:"long",
+year:"numeric",
+month:"long",
+day:"numeric"
+})}.`
+}
+}
+
+return null
+}
+
+function replaceVariables(response,normalized,intent){
+if(!response)return response
+
+const vars={
+input:normalized.original,
+normalized:normalized.text,
+intent:intent.intent,
+year:new Date().getFullYear(),
+time:new Date().toLocaleTimeString(),
+date:new Date().toLocaleDateString()
+}
+
+return response.replace(/\{([^}]+)\}/g,(match,key)=>{
+return key in vars?vars[key]:match
+})
+}
+
+function generateResponse(normalized,intent){
+const dynamic=dynamicRules(normalized)
+if(dynamic)return dynamic
+
+if(!intent.rule){
+if(state.lastIntent==="GREETING_STATUS"&&
+containsAny(normalized.tokens,["good","great","awesome","fine","okay"])){
+return{
+intent:"FOLLOWUP_POSITIVE",
+confidence:80,
+response:"Good to hear. 😎"
+}
+}
+
+return{
+intent:"UNKNOWN",
+confidence:0,
+response:getRandom(DATA.fallbacks)||"I don't have a rule for that yet."
+}
+}
+
+let response=getRandom(intent.rule.responses)
+
+response=replaceVariables(response,normalized,intent)
+
+return{
+intent:intent.intent,
+confidence:intent.confidence,
+response
+}
+}
+
+function think(input){
+const normalized=normalizeInput(input)
+const intent=detectIntent(normalized)
+const result=generateResponse(normalized,intent)
+
+state.lastIntent=result.intent
+state.lastInput=normalized.text
+
+return{
+...result,
+normalized,
+alternatives:intent.alternatives||[]
+}
+}
+
+function addMessage(role,text,analysis=null){
+const chat=document.getElementById("chat")
+document.getElementById("welcome")?.remove()
+
+const message=document.createElement("div")
+message.className="message"
+
+const avatar=document.createElement("div")
+avatar.className=`avatar ${role==="user"?"user-avatar":"ai-avatar"}`
+avatar.textContent=role==="user"?"U":"R"
+
+const content=document.createElement("div")
+content.className="message-content"
+
+const roleText=document.createElement("div")
+roleText.className="message-role"
+roleText.textContent=role==="user"?"You":"RuleMind"
+
+const bubble=document.createElement("div")
+bubble.className="bubble"
+bubble.textContent=text
+
+content.appendChild(roleText)
+content.appendChild(bubble)
+
+if(analysis){
+const debug=document.createElement("div")
+debug.className="analysis"
+
+const alternatives=analysis.alternatives?.length
+?`<br>alternatives: ${analysis.alternatives.map(x=>`${escapeHTML(x.intent)} (${x.confidence}%)`).join(", ")}`
+:""
+
+debug.innerHTML=
+`<strong>ENGINE TRACE</strong><br>
+normalized: "${escapeHTML(analysis.normalized.text)}"<br>
+intent: ${escapeHTML(analysis.intent)}<br>
+confidence: ${analysis.confidence}%${alternatives}`
+
+content.appendChild(debug)
+}
+
+message.appendChild(avatar)
+message.appendChild(content)
+chat.appendChild(message)
+chat.scrollTop=chat.scrollHeight
+}
+
+function addThinking(){
+const chat=document.getElementById("chat")
+const message=document.createElement("div")
+message.className="message"
+message.id="thinking"
+
+const avatar=document.createElement("div")
+avatar.className="avatar ai-avatar"
+avatar.textContent="R"
+
+const content=document.createElement("div")
+content.className="message-content"
+
+const role=document.createElement("div")
+role.className="message-role"
+role.textContent="RuleMind"
+
+const loading=document.createElement("div")
+loading.className="loading"
+loading.innerHTML="<span></span><span></span><span></span>"
+
+content.appendChild(role)
+content.appendChild(loading)
+message.appendChild(avatar)
+message.appendChild(content)
+chat.appendChild(message)
+chat.scrollTop=chat.scrollHeight
+}
+
+function removeThinking(){
+document.getElementById("thinking")?.remove()
+}
+
+function sendMessage(){
+if(!DATA)return
+
+const input=document.getElementById("input")
+const text=input.value.trim()
+
+if(!text)return
+
+addMessage("user",text)
+input.value=""
+input.style.height="25px"
+
+addThinking()
+
+setTimeout(()=>{
+removeThinking()
+
+const result=think(text)
+
+addMessage("ai",result.response,result)
+
+state.messages++
+updateStats()
+input.focus()
+},120)
+}
+
+function useExample(text){
+const input=document.getElementById("input")
+input.value=text
+input.focus()
+sendMessage()
+}
+
+function handleKey(event){
+if(event.key==="Enter"&&!event.shiftKey){
+event.preventDefault()
+sendMessage()
+}
+}
+
+document.getElementById("input").addEventListener("input",function(){
+this.style.height="auto"
+this.style.height=Math.min(this.scrollHeight,140)+"px"
+})
+
+function updateStats(){
+const rules=DATA?.intents?.reduce((n,x)=>n+(x.patterns?.length||0),0)||0
+const vocabulary=
+(DATA?.words?.length||0)+
+Object.keys(DATA?.slang||{}).length+
+Object.keys(DATA?.typos||{}).length
+
+document.getElementById("ruleCount").textContent=rules
+document.getElementById("vocabCount").textContent=vocabulary
+document.getElementById("messageCount").textContent=state.messages
+document.getElementById("correctionCount").textContent=state.corrections
+}
+
+function escapeHTML(text){
+return String(text)
+.replace(/&/g,"&amp;")
+.replace(/</g,"&lt;")
+.replace(/>/g,"&gt;")
+.replace(/"/g,"&quot;")
+.replace(/'/g,"&#039;")
+}
+
+loadData()
+</script>
+</body>
+</html>
